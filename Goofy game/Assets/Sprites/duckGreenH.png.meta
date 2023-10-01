@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: duckGreenH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 80
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fce781e302d1c4aa64ce5ac694df06
+      internalID: 277155166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 110
+        width: 81
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8733e3a636391a4491e9fe0a6362788
+      internalID: 2021474132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 110
+        width: 81
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3b23f31ef242d4aba63118e1b8ad7d
+      internalID: 1012554718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 110
+        width: 80
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220321dbed95f7844b75dfcbc4d825fa
+      internalID: 592261740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc41af8b7ec297444a716b5f3a855175
+      internalID: 650194899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 81
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e34ae15bc62854ab70f7ed38f63696
+      internalID: -2007965816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 81
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1371a4b8d3bb5d144a897aeac2cb1c1b
+      internalID: -11361992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckGreenH_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2
+        width: 81
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2bba80c73c11a4a98833e4b4447038
+      internalID: -1120901607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      duckGreenH_0: 277155166
+      duckGreenH_1: 2021474132
+      duckGreenH_2: 1012554718
+      duckGreenH_3: 592261740
+      duckGreenH_4: 650194899
+      duckGreenH_5: -2007965816
+      duckGreenH_6: -11361992
+      duckGreenH_7: -1120901607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

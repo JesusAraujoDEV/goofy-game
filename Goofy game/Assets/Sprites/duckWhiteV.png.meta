@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: duckWhiteV_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 109
+        width: 68
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a2269316e56a46b67b5717a1bcc85
+      internalID: -1549986206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 108
+        width: 68
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42967a6455b2e84bb3f898d5c807399
+      internalID: -923981916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 108
+        width: 68
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752c9f836567a2141903c4b2efc4a986
+      internalID: 1554277654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 109
+        width: 65
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdd6558c6408f04c90ac7aad61278b0
+      internalID: -718078637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 68
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86faf2ae847f87748a7392dba6e10f1f
+      internalID: -515736862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 68
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca3245662a84924e844095ba3b6c721
+      internalID: -1985814040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 68
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d217ef95e36c135479a8f689029a62b5
+      internalID: 1744781260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: duckWhiteV_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 65
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e593e9065071e5442a1193c51738e150
+      internalID: 1020604656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      duckWhiteV_0: -1549986206
+      duckWhiteV_1: -923981916
+      duckWhiteV_2: 1554277654
+      duckWhiteV_3: -718078637
+      duckWhiteV_4: -515736862
+      duckWhiteV_5: -1985814040
+      duckWhiteV_6: 1744781260
+      duckWhiteV_7: 1020604656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
