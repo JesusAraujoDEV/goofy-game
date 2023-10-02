@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c97e6584ddc56134fae90fe48ecb1154
+guid: 6887c472f8fb32d4485c5793f25ddc75
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,127 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerBlueDeath_0
+      name: eggs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2
+        y: 94
+        width: 60
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7dcbd28d85543848b6ee36c885001f1
-      internalID: -193471005
+      spriteID: 9bd123ba1fca50046a421f1e6dafc091
+      internalID: 1771050988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBlueDeath_1
+      name: eggs_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 90
+        y: 94
+        width: 60
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef903411dd6f58a42bbd4d973ced633b
-      internalID: 1776560938
+      spriteID: 4ca243f69e0dd354bb192ac65b542f82
+      internalID: -1334334481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBlueDeath_2
+      name: eggs_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 178
+        y: 94
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c09c818d3ce77954180f21191dcc8193
-      internalID: -995237509
+      spriteID: 22eeeffa77668d34bad95879d058c221
+      internalID: -567902377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBlueDeath_3
+      name: eggs_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 2
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 60
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c69a124d89b03c4487d93dfa0c829a2
-      internalID: -885699534
+      spriteID: 8f34608928d40ac4cb7cc1a2db28de54
+      internalID: 1726060715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBlueDeath_4
+      name: eggs_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 90
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 60
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a93d93ae134916458f1453326c2b96f
-      internalID: -1045146488
+      spriteID: 63b94d9d265adbf4bbbc15ebf9bc589a
+      internalID: -15764812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBlueDeath_5
+      name: eggs_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 178
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7432058e9f6671440ade413e780a6171
-      internalID: -126956907
+      spriteID: 740cc5cf26390ce4aa05a66af02ba976
+      internalID: 1308326220
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerBlueDeath_0: -193471005
-      PlayerBlueDeath_1: 1776560938
-      PlayerBlueDeath_2: -995237509
-      PlayerBlueDeath_3: -885699534
-      PlayerBlueDeath_4: -1045146488
-      PlayerBlueDeath_5: -126956907
+      eggs_0: 1771050988
+      eggs_1: -1334334481
+      eggs_2: -567902377
+      eggs_3: 1726060715
+      eggs_4: -15764812
+      eggs_5: 1308326220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
