@@ -8,14 +8,14 @@ public class BombaControl : MonoBehaviour
     [Header("Datos Bomba")]
     public GameObject bombaPreFab;
     public KeyCode inputKey = KeyCode.Space;
-    public float tiempoExplosion = 4f;
+    public float tiempo_puesto_Explosion = 4f;
     public int cantidadBombas = 1;
     private int bombasRestantes;
 
     [Header("Datos Explosiones")]
     public Explosion explosionPreFab;
-    public int largoExplosion = 1;
-    public float tiempoexplosion = 1f;
+    public float duracion_explosion = 1f;
+    public int largo_explosion = 1;
 
     private void OnEnable(){
         bombasRestantes = cantidadBombas;
@@ -35,7 +35,7 @@ public class BombaControl : MonoBehaviour
         GameObject bomba = Instantiate(bombaPreFab, posicion, Quaternion.identity);
         bombasRestantes--;
 
-        yield return new WaitForSeconds(tiempoExplosion);
+        yield return new WaitForSeconds(tiempo_puesto_Explosion);
         
         posicion = bomba.transform.position;
         posicion.x = MathF.Round(posicion.x);
@@ -43,12 +43,12 @@ public class BombaControl : MonoBehaviour
 
         Explosion explosion = Instantiate(explosionPreFab, posicion, Quaternion.identity);
         explosion.setActiveRenderer(explosion.start);
-        explosion.DestroyAfterSeconds(tiempoexplosion);
+        explosion.DestroyAfterSeconds(duracion_explosion);
         
-        Explotar(posicion, Vector2.up, largoExplosion);
-        Explotar(posicion, Vector2.down, largoExplosion);
-        Explotar(posicion, Vector2.left, largoExplosion);
-        Explotar(posicion, Vector2.right, largoExplosion);
+        Explotar(posicion, Vector2.up, largo_explosion);
+        Explotar(posicion, Vector2.down, largo_explosion);
+        Explotar(posicion, Vector2.left, largo_explosion);
+        Explotar(posicion, Vector2.right, largo_explosion);
 
         Destroy(bomba);
 
@@ -65,7 +65,7 @@ public class BombaControl : MonoBehaviour
         Explosion explosion = Instantiate(explosionPreFab, posicion, Quaternion.identity);
         explosion.setActiveRenderer(largo > 1 ? explosion.medio: explosion.final);
         explosion.setDireccion(direccion);
-        explosion.DestroyAfterSeconds(tiempoexplosion); 
+        explosion.DestroyAfterSeconds(duracion_explosion); 
 
         Explotar(posicion, direccion, largo - 1);
     }
