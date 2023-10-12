@@ -224,7 +224,7 @@ MonoBehaviour:
   animationSprites:
   - {fileID: 1327964537, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -122971850, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!1 &511552832
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 511552838}
   - component: {fileID: 511552837}
   - component: {fileID: 511552836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: indestructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8302,7 +8302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747280987}
   - component: {fileID: 747280986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8371,7 +8371,7 @@ MonoBehaviour:
   animationSprites:
   - {fileID: -844163480, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 788799805, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!212 &930853128
@@ -8542,7 +8542,7 @@ MonoBehaviour:
   animationSprites:
   - {fileID: 868394643, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 1234882010, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!1 &1103647049
@@ -8647,7 +8647,7 @@ MonoBehaviour:
   - {fileID: 1331641676, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 1674771627, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -881071711, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!1 &1248144358
@@ -8685,7 +8685,7 @@ MonoBehaviour:
   - {fileID: -1112254121, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 1303332173, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -68040539, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!212 &1248144360
@@ -8891,11 +8891,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bombaPreFab: {fileID: 5887947920224276101, guid: 680366ace776c444c8efdc1bda5f4192, type: 3}
   inputKey: 32
-  tiempoExplosion: 4
-  cantidadBombas: 5
+  tiempo_puesto_Explosion: 4
+  cantidadBombas: 1
   explosionPreFab: {fileID: -820377688695300, guid: 93333f793550cda47b9a13a37fa1d101, type: 3}
-  largoExplosion: 1
-  tiempoexplosion: 1
+  explosionLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  duracion_explosion: 1
+  largo_explosion: 1
 --- !u!1 &1624289726
 GameObject:
   m_ObjectHideFlags: 0
@@ -9000,7 +9003,7 @@ GameObject:
   - component: {fileID: 1624776017}
   - component: {fileID: 1624776016}
   - component: {fileID: 1624776015}
-  - component: {fileID: 1624776014}
+  - component: {fileID: 1624776019}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -9008,25 +9011,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1624776014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624776013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 904d81d701e7a2245ad391538aff871e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bombaPreFab: {fileID: 5887947920224276101, guid: 680366ace776c444c8efdc1bda5f4192, type: 3}
-  inputKey: 32
-  tiempoExplosion: 4
-  cantidadBombas: 5
-  explosionPreFab: {fileID: -820377688695300, guid: 93333f793550cda47b9a13a37fa1d101, type: 3}
-  largoExplosion: 1
-  tiempoexplosion: 1
 --- !u!114 &1624776015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9129,6 +9113,28 @@ Transform:
   - {fileID: 1990027513}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624776019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624776013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904d81d701e7a2245ad391538aff871e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombaPreFab: {fileID: 0}
+  inputKey: 304
+  tiempo_puesto_Explosion: 4
+  cantidadBombas: 1
+  explosionPreFab: {fileID: 0}
+  explosionLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  duracion_explosion: 1
+  largo_explosion: 1
 --- !u!1 &1786209682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,7 +9170,7 @@ MonoBehaviour:
   - {fileID: 1062171843, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 1298341111, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: 676768027, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!212 &1786209684
@@ -9336,7 +9342,7 @@ MonoBehaviour:
   - {fileID: 334331987, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -1752594859, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -225939888, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!1 &1990027510
@@ -9373,7 +9379,7 @@ MonoBehaviour:
   animationSprites:
   - {fileID: -56366028, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
   - {fileID: -1533192198, guid: 0d14d53f7006ee0479df4965f3dfb4ac, type: 3}
-  tiempoAnimacion: 0.16666667
+  tiempoAnimacion: 0.25
   loop: 1
   idle: 1
 --- !u!212 &1990027512
@@ -9447,7 +9453,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1624289729}
   - {fileID: 747280987}
   - {fileID: 1418665636}
-  - {fileID: 1624289729}
   - {fileID: 1624776018}
