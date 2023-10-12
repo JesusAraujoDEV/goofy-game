@@ -14,6 +14,7 @@ public class BombaControl : MonoBehaviour
 
     [Header("Datos Explosiones")]
     public Explosion explosionPreFab;
+    public LayerMask explosionLayerMask;
     public float duracion_explosion = 1f;
     public int largo_explosion = 1;
 
@@ -61,6 +62,11 @@ public class BombaControl : MonoBehaviour
         }
 
         posicion += direccion;
+
+        if (Physics2D.OverlapBox(posicion, Vector2.one / 2f, 0f, explosionLayerMask))
+        {
+            return;
+        }
 
         Explosion explosion = Instantiate(explosionPreFab, posicion, Quaternion.identity);
         explosion.setActiveRenderer(largo > 1 ? explosion.medio: explosion.final);
