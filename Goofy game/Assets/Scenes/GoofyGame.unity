@@ -256,8 +256,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511552832}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.51, y: 3.501, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8846,7 +8846,7 @@ Transform:
   m_GameObject: {fileID: 1418665633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.48, y: 2.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8985,7 +8985,7 @@ Transform:
   m_GameObject: {fileID: 1624289726}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.73, y: -4.11, z: -1}
+  m_LocalPosition: {x: -0.05, y: -0.47, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9103,7 +9103,7 @@ Transform:
   m_GameObject: {fileID: 1624776013}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.42, y: -13.3, z: 0}
+  m_LocalPosition: {x: 13.94, y: -7.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9125,14 +9125,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d81d701e7a2245ad391538aff871e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombaPreFab: {fileID: 0}
+  bombaPreFab: {fileID: 5887947920224276101, guid: 680366ace776c444c8efdc1bda5f4192, type: 3}
   inputKey: 304
   tiempo_puesto_Explosion: 4
   cantidadBombas: 1
-  explosionPreFab: {fileID: 0}
+  explosionPreFab: {fileID: -820377688695300, guid: 93333f793550cda47b9a13a37fa1d101, type: 3}
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   duracion_explosion: 1
   largo_explosion: 1
 --- !u!1 &1786209682
