@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Bomba
+  - Player
   - Water
   - UI
-  - Mapa
-  - 
-  - 
-  - 
+  - Stage
+  - Bomb
+  - Explosion
+  - Item
   - 
   - 
   - 

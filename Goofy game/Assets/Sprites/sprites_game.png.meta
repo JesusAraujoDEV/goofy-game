@@ -126,9 +126,9 @@ TextureImporter:
       name: sprites_game_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 24
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -149,7 +149,7 @@ TextureImporter:
         serializedVersion: 2
         x: 44
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -170,7 +170,7 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -191,7 +191,7 @@ TextureImporter:
         serializedVersion: 2
         x: 82
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -212,7 +212,7 @@ TextureImporter:
         serializedVersion: 2
         x: 101
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -233,7 +233,7 @@ TextureImporter:
         serializedVersion: 2
         x: 120
         y: 149
-        width: 15
+        width: 16
         height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
