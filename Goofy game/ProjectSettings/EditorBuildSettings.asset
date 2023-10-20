@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GoofyGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Bomberman.unity
+    path: Assets/Scenes/Versus.unity
     guid: 241b97fd8c1b0bb43bd38da3ab4aa515
   - enabled: 1
     path: Assets/Scenes/Start.unity
