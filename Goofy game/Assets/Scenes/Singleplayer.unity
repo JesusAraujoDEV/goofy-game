@@ -169,9 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players:
   - {fileID: 933875586}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
