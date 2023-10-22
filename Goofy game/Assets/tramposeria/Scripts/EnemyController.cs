@@ -49,13 +49,5 @@ public class EnemyController : MonoBehaviour
         // Opción: Destroy(gameObject) si prefieres destruir el objeto en lugar de desactivarlo
 
         spriteRendererDeath.enabled = true;
-
-        Invoke(nameof(OnDeathSequenceEnded), 1.25f);
-    }
-
-    private void OnDeathSequenceEnded()
-    {
-        gameObject.SetActive(false);
-        FindObjectOfType<GameManager>().CheckWinState();
     }
 }
