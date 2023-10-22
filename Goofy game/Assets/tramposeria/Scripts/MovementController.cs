@@ -6,6 +6,9 @@ public class MovementController : MonoBehaviour
     private new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
+    public int lives = 3;
+    private bool isInvulnerable = false; // Variable para rastrear si el enemigo es invulnerable temporalmente
+    private float invulnerabilityDuration = 5f; // Duración de la invulnerabilidad en segundos
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -40,6 +43,20 @@ public class MovementController : MonoBehaviour
         } else {
             SetDirection(Vector2.zero, activeSpriteRenderer);
         }
+        if (lives <= 0){
+            DeathSequence();
+        }
+
+        if (isInvulnerable)
+        {
+            invulnerabilityDuration -= Time.deltaTime;
+            if (invulnerabilityDuration <= 0f)
+            {
+                isInvulnerable = false;
+                // Restaurar las colisiones con explosiones
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Explosion"), false);
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -64,14 +81,17 @@ public class MovementController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
+{
+    if ((other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("Enemy")) && !isInvulnerable)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && other.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
-            DeathSequence();
-        }
-        if(other.gameObject.layer == LayerMask.NameToLayer("Enemy")){
-            DeathSequence();
-        }
+        lives--;
+        isInvulnerable = true;
+            invulnerabilityDuration = 5f;
+            // Ignorar las colisiones con explosiones
+            Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Explosion"), true);
     }
+}
+
 
     private void DeathSequence()
     {

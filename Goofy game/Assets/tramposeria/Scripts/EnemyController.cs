@@ -7,9 +7,13 @@ public class EnemyController : MonoBehaviour
 
     private Transform player;
     public float moveSpeed = 5f;
+    public int lives = 1;
     public float detectionDistance = 5f;
     
     public AnimatedSpriteRenderer spriteRendererDeath;
+
+    private bool isInvulnerable = false; // Variable para rastrear si el enemigo es invulnerable temporalmente
+    private float invulnerabilityDuration = 5f; // Duración de la invulnerabilidad en segundos
 
     private void Awake()
     {
@@ -26,6 +30,22 @@ public class EnemyController : MonoBehaviour
             Vector2 direction = (player.position - transform.position).normalized;
             MoveEnemy(direction);
         }
+        if (lives <= 0)
+        {
+            DeathSequence();
+        }
+
+        // Si es invulnerable, reducir el tiempo de invulnerabilidad y restaurar las colisiones
+        if (isInvulnerable)
+        {
+            invulnerabilityDuration -= Time.deltaTime;
+            if (invulnerabilityDuration <= 0f)
+            {
+                isInvulnerable = false;
+                // Restaurar las colisiones con explosiones
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Explosion"), false);
+            }
+        }
     }
 
     private void MoveEnemy(Vector2 moveDirection)
@@ -38,16 +58,27 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-            DeathSequence();
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable)
+        {
+            lives--;
+            // Hacer que el enemigo sea invulnerable temporalmente
+            isInvulnerable = true;
+            invulnerabilityDuration = 5f;
+            // Ignorar las colisiones con explosiones
+            Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Explosion"), true);
         }
     }
 
     private void DeathSequence()
     {
+        enabled = false;
+        GetComponent<BombController>().enabled = false;
+
+        spriteRendererDeath.enabled = true;
+
         gameObject.SetActive(false); // Puedes cambiar esto según tu lógica
         // Opción: Destroy(gameObject) si prefieres destruir el objeto en lugar de desactivarlo
 
-        spriteRendererDeath.enabled = true;
+
     }
 }
