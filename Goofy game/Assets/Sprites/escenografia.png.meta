@@ -399,10 +399,10 @@ TextureImporter:
       name: escenografia_13
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 91
-        width: 7
-        height: 14
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,8 +422,8 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 91
-        width: 7
-        height: 14
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

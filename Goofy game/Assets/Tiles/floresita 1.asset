@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: grama_right
+  m_Name: floresita 1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: e6795888083da3e49aa7781dbb4413fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa26edb9b1dbbc342b99c190341d4f34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
