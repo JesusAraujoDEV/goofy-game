@@ -3,22 +3,20 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class EnemyController : MonoBehaviour
 {
-    private new Rigidbody2D rigidbody; // Usar "new" para ocultar el miembro heredado
-
+    private new Rigidbody2D rigidbody;
     private Transform player;
     public float moveSpeed = 5f;
     public int lives = 1;
     public float detectionDistance = 5f;
-    
     public AnimatedSpriteRenderer spriteRendererDeath;
 
-    private bool isInvulnerable = false; // Variable para rastrear si el enemigo es invulnerable temporalmente
-    private float invulnerabilityDuration = 5f; // Duración de la invulnerabilidad en segundos
+    private float invulnerabilityDuration = 5f;
+    private static bool isInvulnerable = false; // Variable estática compartida por todos los enemigos
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>(); // Corregido
-        player = FindObjectOfType<MovementController>().transform; // Asume que hay un script "MovementController" en el jugador.
+        rigidbody = GetComponent<Rigidbody2D>();
+        player = FindObjectOfType<MovementController>().transform;
     }
 
     private void Update()
@@ -35,14 +33,13 @@ public class EnemyController : MonoBehaviour
             DeathSequence();
         }
 
-        // Si es invulnerable, reducir el tiempo de invulnerabilidad y restaurar las colisiones
         if (isInvulnerable)
         {
             invulnerabilityDuration -= Time.deltaTime;
             if (invulnerabilityDuration <= 0f)
             {
                 isInvulnerable = false;
-                // Restaurar las colisiones con explosiones
+                // Restaurar las colisiones con explosiones para todos los enemigos
                 Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Explosion"), false);
             }
         }
@@ -61,24 +58,17 @@ public class EnemyController : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable)
         {
             lives--;
-            // Hacer que el enemigo sea invulnerable temporalmente
+            // Hacer que todos los enemigos sean invulnerables temporalmente
             isInvulnerable = true;
             invulnerabilityDuration = 5f;
-            // Ignorar las colisiones con explosiones
+            // Ignorar las colisiones con explosiones para todos los enemigos
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Explosion"), true);
         }
     }
 
     private void DeathSequence()
     {
-        enabled = false;
-        GetComponent<BombController>().enabled = false;
-
+        gameObject.SetActive(false);
         spriteRendererDeath.enabled = true;
-
-        gameObject.SetActive(false); // Puedes cambiar esto según tu lógica
-        // Opción: Destroy(gameObject) si prefieres destruir el objeto en lugar de desactivarlo
-
-
     }
 }

@@ -81,17 +81,22 @@ public class MovementController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-{
-    if ((other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("Enemy")) && !isInvulnerable)
     {
-        lives--;
-        isInvulnerable = true;
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable)
+        {
+            // Si colisiona con una explosión y no está invulnerable, reduce las vidas
+            lives--;
+            isInvulnerable = true;
             invulnerabilityDuration = 5f;
-            // Ignorar las colisiones con explosiones
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Explosion"), true);
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        {
+            lives--;
+            isInvulnerable = true;
+            invulnerabilityDuration = 5f;
+        }
     }
-}
-
 
     private void DeathSequence()
     {
