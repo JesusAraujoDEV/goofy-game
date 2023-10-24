@@ -1,0 +1,624 @@
+[33mcommit e8f8f4c6362b7e26485d12c282f94f76bb59b65a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Mon Oct 23 20:51:41 2023 -0400
+
+    versus mapa
+
+[33mcommit 6aebeafa59860b7cfa12def7bc5e0ecb210aef10[m
+Merge: e124090 5362346
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 22 22:18:15 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 53623465bb27304584022c4719ad6ef00397ec0a[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 22 20:14:28 2023 -0400
+
+    orden
+
+[33mcommit ba81a027cbf79cf83a43242ef86171b6f9065273[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 22 18:12:38 2023 -0400
+
+    al fin arreglado la bomba esa
+
+[33mcommit 105f786f2cea32be0d94d42630fac72bc9399f31[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 22 15:36:23 2023 -0400
+
+    Lógica de Mapa 1 lista, falta una cosa y el botón de salida
+
+[33mcommit 085d03c0229162d54c24d93aca25bb7e9d5683ca[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 22 01:10:22 2023 -0400
+
+    Puercoespines
+
+[33mcommit 7b3450fc52ccdf572c8b77b6d037135833694639[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 22 00:26:06 2023 -0400
+
+    Puercoespines update
+
+[33mcommit e1240905f28dcc1ff85a324e664dd51a30ceb934[m
+Merge: 87e3c94 64e559c
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 21 19:48:27 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 87e3c9449f6b098ff883e31a813531a6b0a1493f[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 21 19:48:22 2023 -0400
+
+    l
+
+[33mcommit 64e559c1dd086fc2e900888067d0db40c17d15ae[m
+Merge: fafc5e5 768b2b0
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 19:02:48 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit fafc5e56558f2aa493853d4a604ec821f58e66ce[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 19:02:41 2023 -0400
+
+    proceso de enemigos
+
+[33mcommit 768b2b03e9e8dab8767597c6ec10ceda580998dd[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 21 18:49:18 2023 -0400
+
+    update
+
+[33mcommit 2f0023509039340b0c7385d3e1c9761cd3968ec7[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 21 18:15:00 2023 -0400
+
+    acomodando scene
+
+[33mcommit e533d4454e013833e73d314e75c7aa34bc450a5f[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 17:34:24 2023 -0400
+
+    CHAO
+
+[33mcommit c89c4ac786903e20e16f410cf6616b23e9a0f60a[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 17:04:58 2023 -0400
+
+    volvieron las sombras
+
+[33mcommit 84785ed7f77e318d1cb8448a31c22ac2089fad38[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 16:39:43 2023 -0400
+
+    cosas, no m acuerdo creo q unos monte
+
+[33mcommit 5bea3f2df85dbbd61e01ef773262e7e04b466cb5[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 02:46:31 2023 -0400
+
+    unas cosas tmbn por mejorar
+
+[33mcommit 6f9ccd12c69f8c1c422fb7b76fe3cc895079c41e[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 02:46:05 2023 -0400
+
+    algunos tiles, pero falta mejorar otros
+
+[33mcommit 351e62b15a75fad545fb00d69b9531db6a05900a[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 01:31:34 2023 -0400
+
+    ya todos los caminos
+
+[33mcommit 1081024eff6cce17c445433ff944545258d3c48d[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 01:12:32 2023 -0400
+
+    caminos
+
+[33mcommit 5f8caa2a36dc2e3f5dea8e8994dc82fdeac5dd4b[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sat Oct 21 00:51:48 2023 -0400
+
+    Floreessss
+
+[33mcommit 9080c32da33e384195f72e2fd4a378d2787efdcc[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 20 16:52:05 2023 -0400
+
+    cambios players
+
+[33mcommit 650f974110c236840ebd0c5fe0540478aefbfcf3[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 20 16:03:39 2023 -0400
+
+    chao patos
+
+[33mcommit 1c05390bd2214ebb982fbce8280f65308b95062d[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 20 15:00:02 2023 -0400
+
+    Seguimiento de personaje
+
+[33mcommit 2e808562a68784188746f062ddee5580ed127425[m
+Merge: 30d627a 649ab0f
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 20 01:31:30 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 30d627a978aa8d1f7a62c00f5d22bc57f73bb7bd[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 20 01:31:16 2023 -0400
+
+    Nuevo Mapa (SinglePlayer)
+
+[33mcommit 649ab0f5e8ba86fb3a22e086be6211608d284a97[m
+Merge: 34714c8 1739003
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Thu Oct 19 23:19:01 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 34714c8ac9eba46c231b475da0b0c7a5e4c60036[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Thu Oct 19 23:18:57 2023 -0400
+
+    referencia de posicion skin
+
+[33mcommit 1739003e84479eb07a9894b4fbce0345cd7491cf[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Thu Oct 19 22:49:36 2023 -0400
+
+    cambio d nombre
+
+[33mcommit f891ad3d8010f6a0da91e75ae821c0bf62429db0[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Thu Oct 19 22:36:14 2023 -0400
+
+    update
+
+[33mcommit 0b471b6178d3e857c727b27536251dfd2bee88a7[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Wed Oct 18 23:25:14 2023 -0400
+
+    conexion scene
+
+[33mcommit fe202965df02add5946c5c7d8b475339faaa3c96[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Tue Oct 17 23:14:29 2023 -0400
+
+    arregle cositas
+
+[33mcommit 94d25d1bfd0d690697cfee77a0b5daaaf32ee921[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Tue Oct 17 23:11:47 2023 -0400
+
+    Borre lo q querias y arreglé la explosión
+
+[33mcommit c6b43e8b6f08fb6ef653f7edc998666fbaa31fd5[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Tue Oct 17 22:37:50 2023 -0400
+
+    Buttons
+    
+    Agregue los botenes de algunas paginas, faltan agregar botones a otras scenes pero como no estan definidos no los puse
+
+[33mcommit 09f5e683089d6d9f0810ea6de066cf13d8aacc03[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Mon Oct 16 00:35:18 2023 -0400
+
+    ajustes de altura y eso
+
+[33mcommit 58443707d2fff255f002fce08959184adca83a3c[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Mon Oct 16 00:29:27 2023 -0400
+
+    acomode unos sprites jeje
+
+[33mcommit b82141e9e94b54b1c928856f9ebbabbf1770ec6a[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Mon Oct 16 00:28:40 2023 -0400
+
+    Super Actualización Goofy Game 2023
+
+[33mcommit 55f557ddd58149a25ed80039e8bf2302db6d23c8[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 14 23:38:21 2023 -0400
+
+    posicion del boton
+
+[33mcommit 6c2cc9c6019cc00161ed2d89ebffe761a2218167[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 14 23:30:28 2023 -0400
+
+    incio
+    
+    agregue el titulo y el boton, falta que al presionar el boton se sienta que se presiona como tal
+
+[33mcommit fa9534fd9430032fd5d644247153bbe5d21a092d[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 13 17:15:24 2023 -0400
+
+    cambios d tamaño
+
+[33mcommit b7d1c695daa101440fcd4ea4ad21168bf4db5c40[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Thu Oct 12 20:54:45 2023 -0400
+
+    sprites explosiones
+
+[33mcommit f25367e0868276cdcfec96f6cf05d9389e92c74f[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Thu Oct 12 16:39:05 2023 -0400
+
+    Cambios
+
+[33mcommit 0aa558d0598b0c779b9ebfbf34882f7395a2f918[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Thu Oct 12 16:38:44 2023 -0400
+
+    Layers
+
+[33mcommit 114645d9459787af7b94894ad7256340c123076d[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Thu Oct 12 16:28:29 2023 -0400
+
+    Finalmente ya hay explosiones
+
+[33mcommit 391164529f5c2bddbb1d9fa9acce9b2b74b060e7[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Mon Oct 9 20:13:40 2023 -0400
+
+    .
+
+[33mcommit 31fdc96f5d3def315416f5a1b64761ff1b8b6b65[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 8 23:50:43 2023 -0400
+
+    cosas
+
+[33mcommit 295fd22488556b61a96c6184c34937d88fa11a69[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 8 23:50:24 2023 -0400
+
+    explosiones pero debe mejorarse
+
+[33mcommit cc0b7281ca98078a213b257f0cfbf972fd6782b9[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 8 22:48:35 2023 -0400
+
+    Bombas
+
+[33mcommit 6c74d196f4c99e08b35cd5cdeca8eb36eaed47f7[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 8 15:39:22 2023 -0400
+
+    scene menu
+
+[33mcommit 49be4cd98655821cc8b49b69f8ef2e9a9a5ddcae[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 8 15:10:27 2023 -0400
+
+    inicio
+
+[33mcommit 462787828b92aa194f0771745d3eb5ad96c0c7b0[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 8 15:07:58 2023 -0400
+
+    .
+
+[33mcommit de61142a9d51fa2bd58f8c7fd9aa0a0edf3b28bf[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 8 15:05:03 2023 -0400
+
+    update
+
+[33mcommit df414ecdd52cc261c9c6bb70cec9aed9238fe943[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 8 02:29:02 2023 -0400
+
+    Ahora hay colisión c:
+
+[33mcommit fd9802d34282ccb74c1d0c011e94a75ac8b92b45[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 8 01:27:58 2023 -0400
+
+    Arreglando desastre
+
+[33mcommit 184a3d40242c45788498a2f54eca6b75aec2c254[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 7 15:15:22 2023 -0400
+
+    .
+
+[33mcommit b90ee1222bb969e4bb8eaeb2aa2ec3f3e791cb31[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 7 03:31:16 2023 -0400
+
+    dios mio
+
+[33mcommit 4a543f8fd951bfd194f8d6a41e56380e8ba4bdd5[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 7 03:15:40 2023 -0400
+
+    update
+
+[33mcommit de320e22aa688715f4c8998a47d3816500125118[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sat Oct 7 02:10:06 2023 -0400
+
+    referencia
+
+[33mcommit 209c6d90474a695e11d6c5aa340455dedb7dc772[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Fri Oct 6 03:13:22 2023 -0400
+
+    new scene
+
+[33mcommit f76375d4ca9837b36fb693e4d2c70ee9608a281e[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 6 02:42:20 2023 -0400
+
+    ya quite los arboles y le puse fondo negro
+
+[33mcommit 3633ed9bc626637a83b298eaec08a66d5b57d3e1[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 6 02:33:10 2023 -0400
+
+    alguna parte del codigo
+    
+    algo de movimiento en el code jeje
+
+[33mcommit 1d394569f9c5617c74ae9935c7f650ecc21ca0d7[m
+Merge: 32a588b f485c96
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Oct 6 01:51:12 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit f485c963ad38a03c43953875f5af2395c13036f0[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Fri Oct 6 01:21:00 2023 -0400
+
+    lo que faltaba del puercoespin
+
+[33mcommit e55f6f48fef0e525276f00f2e1a96f7cc177c196[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Fri Oct 6 01:06:52 2023 -0400
+
+    update
+
+[33mcommit 2212486e0da169388a7d923cc53ff81fdb0722d4[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Thu Oct 5 23:59:08 2023 -0400
+
+    sprites
+    
+    agregue los sprites que faltaban
+
+[33mcommit 32a588b357f9b21a90573a7d51b7a4f2c57ebfed[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Thu Oct 5 23:49:50 2023 -0400
+
+    ALgunos sprites mejorados
+
+[33mcommit b5c1ce4130821d8be7ac333e25193b7140bc728c[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Wed Oct 4 17:26:23 2023 -0400
+
+    update
+
+[33mcommit 5bec93253ffcb0715b8ef027016b11ecc1a3d3bb[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Wed Oct 4 00:35:21 2023 -0400
+
+    sprites
+    
+    agregue los sprites correspondientes
+
+[33mcommit 16820a9ab851c24c2d2ff00677c2deffd6f46bf9[m
+Merge: ef580f1 44bf679
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Wed Oct 4 00:08:13 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit ef580f1792a1e09ee83bb9143c1a9aedb3db02a9[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Tue Oct 3 21:29:12 2023 -0400
+
+    update
+
+[33mcommit 44bf679dd1aca6c6f926fcb91c2a74e22ea368c7[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Tue Oct 3 16:28:15 2023 -0400
+
+    COdes
+
+[33mcommit 66883545b3c0b16e21d4fe20580ef7f15613b488[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Tue Oct 3 15:58:44 2023 -0400
+
+    Probado mapa y sprites algunos jeje
+
+[33mcommit b73cee7ece18b475384b985be2a94291192a1401[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Tue Oct 3 13:36:58 2023 -0400
+
+    Grama
+
+[33mcommit d19e123769858912d54741f9f452d0a2a6651c5b[m
+Merge: 2830001 588ffd6
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Mon Oct 2 22:23:56 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 283000179f48a8e6b12ddda5abb92428ae02134f[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Mon Oct 2 21:43:25 2023 -0400
+
+    limpieza
+
+[33mcommit 588ffd6840a0f3c5dd71a6911a7f5694cb815c5a[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Mon Oct 2 00:28:20 2023 -0400
+
+    SPriteeeeeeeees
+    
+    ola lai mucho gusto tqm
+
+[33mcommit 33048b79c1401b12f2d6e79fd8c3f24713aafebb[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 23:29:16 2023 -0400
+
+    ajuste d camara jeje
+
+[33mcommit f3b2c0b410b4e676f8ea7ec89ae25081b6237ac6[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 23:28:19 2023 -0400
+
+    acomodé creo
+
+[33mcommit 9ae6cb8654fe9f027d9eb27d35f1201326782e45[m
+Merge: f4d45e1 c813768
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 23:04:13 2023 -0400
+
+    que
+
+[33mcommit f4d45e19075efff27ab763488acae1c0bb3b6273[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 23:03:04 2023 -0400
+
+    algo d jugador
+
+[33mcommit c8137686aafcfcece30c64d9aadcb23524757583[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 21:29:00 2023 -0400
+
+    comparar img
+    
+    ambas tienen una scale 1,1,1 pero los tamanos no coinciden
+
+[33mcommit 09dd463f3a87509cc5c03662117932a3363263b6[m
+Merge: 34f03d0 ed4cfbb
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 21:25:22 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit 34f03d0391de58a52e3c066c801858935e06d3bb[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 21:25:14 2023 -0400
+
+    img
+    
+    agregue otras imgs, se tiene que revisar el tamano el cual no concuerda
+
+[33mcommit ed4cfbbd7c47cd1e649ae7241f2017e2ef2a51d4[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 20:47:23 2023 -0400
+
+    no se q es esto
+
+[33mcommit 640f84a092ce1be9d897ed8232c0c6375a1f1a45[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 19:35:14 2023 -0400
+
+    h
+
+[33mcommit 7b9806cb12ccd647a04ede27cbc67dcd138ca080[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 19:07:15 2023 -0400
+
+    here again
+
+[33mcommit 68d87bc858862aceff2909b7f04fb713add85889[m
+Merge: ae7250a dc481c2
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 19:06:44 2023 -0400
+
+    Merge branch 'main' of https://github.com/JesuGithub/goofy-game
+
+[33mcommit ae7250a9db2284169d108ac561a061b3ac44c8d3[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 18:53:02 2023 -0400
+
+    aqui de nuevo
+    
+    hola jesus
+
+[33mcommit dc481c2d90b71c0d2455c097afbcfde11d0f8543[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 18:26:57 2023 -0400
+
+    cambio d estatura
+
+[33mcommit 25282967ae6c21d681896e954d679a3f04067d44[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 18:22:23 2023 -0400
+
+    main character
+    
+    ya separe los personajes, son +2px mas grandes de la img que tenias como base
+
+[33mcommit 76b7d3f3d9e0c78d6d2923880f9c8cfb8b38a3a0[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 18:09:16 2023 -0400
+
+    img ducks
+    
+    resolucion de img aumentada
+
+[33mcommit e864cd40429d65aa848dc04b3db485bff16a46f0[m
+Author: laichangdiaz <laichangdiaz@gmail.com>
+Date:   Sun Oct 1 18:00:25 2023 -0400
+
+    pato
+    
+    agregue personaje y corte
+
+[33mcommit 9e7dd25cc9a2bd203584d0a1f39da4817e478545[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 17:12:59 2023 -0400
+
+    Mapa
+
+[33mcommit 861920f434bb32a6fd235a452ed44773d1e6e8f1[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 16:05:51 2023 -0400
+
+    bloques
+
+[33mcommit 4f27091f142c3cbbe46c1c2879f5542654c0e991[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 15:56:43 2023 -0400
+
+    cambio
+
+[33mcommit dbb617049c036630a239fba0217b19ce2e1ba017[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Sun Oct 1 15:54:05 2023 -0400
+
+    cositas
+
+[33mcommit f64ac96bbf1443be1b224aee9110cade9bd66f2f[m[33m ([m[1;32mejemplo[m[33m)[m
+Author: Jesús <j2a0a0a5@gmail.com>
+Date:   Fri Sep 29 13:45:26 2023 -0400
+
+    algo inicial
+    
+    ola lai
+
+[33mcommit 6b15197f1109f63e8eb72e250b063342f966ff40[m
+Author: Jesús <132314980+JesuGithub@users.noreply.github.com>
+Date:   Thu Sep 28 23:31:09 2023 -0400
+
+    Initial commit
