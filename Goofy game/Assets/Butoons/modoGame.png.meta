@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 60a83dcf96b366d4aa0e7ccd5191bb1e
+guid: a58e5cfddd2508e4f810890472a2d8d8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: modo_0
+      name: modoGame_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 60
-        width: 40
-        height: 40
+        y: 77
+        width: 150
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b514c0eb1ed84449aab862f00246faf
-      internalID: -868514685
+      spriteID: 8e8f01686eba7af41a0488e9755dc326
+      internalID: 1830329180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modo_1
+      name: modoGame_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 60
-        width: 40
-        height: 40
+        x: 157
+        y: 77
+        width: 150
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5651aa39f4f4227458a701dee8a1d6d0
-      internalID: 1188321913
+      spriteID: 5929f4a1d3120a348afe5366cce3a0d3
+      internalID: 577436232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modo_2
+      name: modoGame_2
       rect:
         serializedVersion: 2
-        x: 85
-        y: 60
-        width: 40
-        height: 40
+        x: 310
+        y: 77
+        width: 150
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,83 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 306fd184b7ef2cc44baac7fc0931a51f
-      internalID: 705489192
+      spriteID: f04a3b13d1ff79f4ca2debcc280f63a4
+      internalID: 971886560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modo_3
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 65
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f46b4dbaf839de94a968fca2dd2fb4ac
-      internalID: -582494573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_4
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 58
-        width: 41
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1101950b5224b694fb1b1f5df4054b91
-      internalID: -747140684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_5
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 58
-        width: 41
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf5851c6f8154644c8c7b1876f81129f
-      internalID: -1820081222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_6
+      name: modoGame_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 40
-        height: 40
+        y: 3
+        width: 150
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a75abc27ebf4429489d6f0aabcd3c999
-      internalID: -1293871489
+      spriteID: 010d826a85669bd4dafa7b4aaf2c9c03
+      internalID: 1867474171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modo_7
+      name: modoGame_4
       rect:
         serializedVersion: 2
-        x: 42
-        y: 15
-        width: 40
-        height: 40
+        x: 157
+        y: 3
+        width: 150
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ce0797b4af585d4683b8e419a788a4b
-      internalID: -2039481911
+      spriteID: 6bbd962ca6418e54d9c84806057b319b
+      internalID: -1623466795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modo_8
+      name: modoGame_5
       rect:
         serializedVersion: 2
-        x: 85
-        y: 16
-        width: 40
-        height: 40
+        x: 310
+        y: 3
+        width: 150
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,71 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3bd5e3eeebd7049b8b4e38d4a84114
-      internalID: -950475501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_9
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 26
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bc7b555f3284604bbc6607ee57ee420
-      internalID: -1263398564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_10
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 10
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1518375988dc8ff459088a7f1dc861eb
-      internalID: -1564898843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modo_11
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 19
-        width: 41
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ade51fdd19db6c4caca6031161d4913
-      internalID: 39611515
+      spriteID: 07313f34d83506841a7bd5cb0ca567fa
+      internalID: -1822407144
       vertices: []
       indices: 
       edges: []
@@ -385,18 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      modo_0: -868514685
-      modo_1: 1188321913
-      modo_10: -1564898843
-      modo_11: 39611515
-      modo_2: 705489192
-      modo_3: -582494573
-      modo_4: -747140684
-      modo_5: -1820081222
-      modo_6: -1293871489
-      modo_7: -2039481911
-      modo_8: -950475501
-      modo_9: -1263398564
+      modoGame_0: 1830329180
+      modoGame_1: 577436232
+      modoGame_2: 971886560
+      modoGame_3: 1867474171
+      modoGame_4: -1623466795
+      modoGame_5: -1822407144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

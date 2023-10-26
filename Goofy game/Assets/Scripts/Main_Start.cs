@@ -5,21 +5,29 @@ using UnityEngine;
 public class Mainmenu : MonoBehaviour
 {
     
-    public void StartGame()
-    //Boton que pasa de start a menu
+    public void PlayGame()
+    //Boton que pasa de menu a play
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("play_mode");
     }
+    //Boton que va de menu a skin
     public void SkinGame()
     {
         SceneManager.LoadScene("skin");
     }
-    public void PlayGame()
+    //Boton de Play a modo en sinlge player 
+    public void SinglePlayer()
     {
-        SceneManager.LoadScene("play_mode");
+        SceneManager.LoadScene("single_mode");
     }
+    //Boton de Play a modo en sinlge player 
+    public void MultiPlayer()
+    {
+        SceneManager.LoadScene("multi_mode");
+    }
+
     public void QuitGame()
-    //Noton para salir del juego
+    //Boton para salir del juego
     {
         Application.Quit();
     }    
