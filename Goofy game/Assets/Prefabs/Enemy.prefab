@@ -430,7 +430,6 @@ GameObject:
   - component: {fileID: 4715093931708016091}
   - component: {fileID: 5054944362583537417}
   - component: {fileID: 2987352643659414830}
-  - component: {fileID: 1451273947664444787}
   - component: {fileID: 8329153929531416600}
   m_Layer: 8
   m_Name: Enemy
@@ -518,7 +517,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.2}
+  m_Offset: {x: 0, y: 0.018232584}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -529,7 +528,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.5}
+  m_Size: {x: 1, y: 0.967051}
   m_EdgeRadius: 0
 --- !u!114 &2987352643659414830
 MonoBehaviour:
@@ -546,31 +545,7 @@ MonoBehaviour:
   moveSpeed: 5
   lives: 1
   detectionDistance: 5
-  spriteRendererDeath: {fileID: 8258895551823449864}
---- !u!114 &1451273947664444787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8822135627691294506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5840e75ee3ae56845a89a34660cd2f40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputKey: 0
-  bombPrefab: {fileID: 3939017888894637700, guid: e10230ffd5e90c3489946b2652130401, type: 3}
-  bombFuseTime: 3
-  bombAmount: 1
-  explosionPrefab: {fileID: 5506731975442115742, guid: 7d7e9c7ce1308484e863a8b4489e090f, type: 3}
-  explosionLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  explosionDuration: 1
-  explosionRadius: 1
-  destructibleTiles: {fileID: 0}
-  destructiblePrefab: {fileID: -8738203639632321532, guid: 1ac7a5f8ae90ed04aa34c0753307c241, type: 3}
+  spriteRendererDeath: {fileID: 1494095034889944313}
 --- !u!58 &8329153929531416600
 CircleCollider2D:
   m_ObjectHideFlags: 0

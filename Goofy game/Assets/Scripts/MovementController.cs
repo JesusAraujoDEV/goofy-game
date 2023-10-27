@@ -6,7 +6,10 @@ public class MovementController : MonoBehaviour
     private new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
+    public int lives = 1;
     public int plumasCollected = 0;
+    private float invulnerabilityDuration = 5f;
+    private static bool isInvulnerable = false;
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -41,6 +44,23 @@ public class MovementController : MonoBehaviour
         } else {
             SetDirection(Vector2.zero, activeSpriteRenderer);
         }
+
+        if (lives <= 0)
+        {
+            DeathSequence();
+        }
+
+        if (isInvulnerable)
+        {
+            invulnerabilityDuration -= Time.deltaTime;
+            if (invulnerabilityDuration <= 0f)
+            {
+                isInvulnerable = false;
+                // Restaurar las colisiones con explosiones para todos los enemigos
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Explosion"), false);
+            }
+        }
+    
     }
 
     private void FixedUpdate()
@@ -67,7 +87,9 @@ public class MovementController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-            DeathSequence();
+            isInvulnerable = true;
+            invulnerabilityDuration = 5f;
+            lives--;
         }
     }
 

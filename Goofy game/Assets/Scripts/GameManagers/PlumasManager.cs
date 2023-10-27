@@ -37,7 +37,6 @@ public class PlumasManager : MonoBehaviour
         gameIsRunning = false;
         // Aquí puedes determinar quién recolectó la mayor cantidad de plumas y declararlo como ganador
         GameObject winner = DetermineWinner();
-        Debug.Log("El jugador " + winner.name + " gana con " + winner.GetComponent<Player>().plumasCollected + " plumas.");
 
         // Reiniciar la escena después de un breve retraso
         Invoke(nameof(RestartGame), 3f);
@@ -50,7 +49,7 @@ public class PlumasManager : MonoBehaviour
 
         foreach (GameObject player in players)
         {
-            int feathersCollected = player.GetComponent<Player>().feathersCollected;
+            int feathersCollected = 0;
             if (feathersCollected > maxFeathers)
             {
                 maxFeathers = feathersCollected;
