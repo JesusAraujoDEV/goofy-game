@@ -6,6 +6,7 @@ public class MovementController : MonoBehaviour
     private new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
+    public int plumasCollected = 0;
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
