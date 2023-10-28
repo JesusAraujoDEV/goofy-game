@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1661346476591403199}
   - component: {fileID: 2715992336216313215}
   - component: {fileID: 2990062450009468492}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pluma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
