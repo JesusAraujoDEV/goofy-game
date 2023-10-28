@@ -9,7 +9,7 @@ public class MovementController : MonoBehaviour
     public int lives = 1;
     public int plumasCollected = 0;
     private float invulnerabilityDuration = 5f;
-    private static bool isInvulnerable = false;
+    private bool isInvulnerable = false;
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -86,7 +86,7 @@ public class MovementController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable) {
             isInvulnerable = true;
             invulnerabilityDuration = 5f;
             lives--;
