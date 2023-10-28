@@ -6,6 +6,8 @@ using UnityEngine;
 public class Characters : ScriptableObject
 {
     public GameObject playableCharacter;
-    public Sprite imagePlayer;
+    public Sprite imagePlayer1;
+    
+    public Sprite imagePlayer2;
     
 }
