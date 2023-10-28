@@ -34,6 +34,7 @@ public class Mainmenu : MonoBehaviour
     public void QuitGame()
     //Boton para salir del juego
     {
+        Debug.Log("Closing game");
         Application.Quit();
     }    
     

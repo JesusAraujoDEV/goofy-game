@@ -31,12 +31,5 @@ public class MenuPausa : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-    
-    //cerrar juego
-    public void Quit()
-    {
-        Debug.Log("Closing game");
-        Application.Quit();
-    }
+    }  
 }

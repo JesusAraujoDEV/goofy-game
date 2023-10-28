@@ -13181,13 +13181,14 @@ GameObject:
   - component: {fileID: 799199646}
   - component: {fileID: 799199645}
   - component: {fileID: 799199644}
+  - component: {fileID: 799199649}
   m_Layer: 5
   m_Name: Canva
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &799199644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13286,6 +13287,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &799199649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799199643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b089ae6fbd7a6a4fa84103e2035609f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882104841
 GameObject:
   m_ObjectHideFlags: 0
@@ -25098,9 +25111,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 799199644}
-        m_TargetAssemblyTypeName: MenuPausa, Assembly-CSharp
-        m_MethodName: Quit
+      - m_Target: {fileID: 799199649}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -85417,7 +85430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2072476094
 RectTransform:
   m_ObjectHideFlags: 0
