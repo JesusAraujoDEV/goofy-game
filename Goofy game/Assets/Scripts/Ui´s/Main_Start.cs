@@ -1,6 +1,7 @@
-﻿using UnityEngine.SceneManagement;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class Mainmenu : MonoBehaviour
 {
@@ -10,25 +11,11 @@ public class Mainmenu : MonoBehaviour
     {
         SceneManager.LoadScene("play_mode");
     }
-    //Boton que va de menu a skin
-    public void SkinGame()
-    {
-        SceneManager.LoadScene("skin");
-    }
+    
     //Boton que devuelve al menu de inicio
     public void ReturnMenu()
     {
         SceneManager.LoadScene("menu");
-    }
-    //Boton de Play a modo en sinlge player 
-    public void SinglePlayer()
-    {
-        SceneManager.LoadScene("single_mode");
-    }
-    //Boton de Play a modo en sinlge player 
-    public void MultiPlayer()
-    {
-        SceneManager.LoadScene("multi_mode");
     }
 
     public void QuitGame()
