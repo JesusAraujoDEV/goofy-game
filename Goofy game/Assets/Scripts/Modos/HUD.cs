@@ -22,14 +22,12 @@ public class HUD : MonoBehaviour
         }
     }
 
-    public void ActualizarPlumas(int plumasTotales){
-        tagDuck = plumasManager.TagPlayer;
-        if (tagDuck == "WhiteDuck"){
-            puntosWhiteDuck.text = plumasTotales.ToString();
-        }
-        else if(tagDuck == "BlackDuck"){
-            puntosBlackDuck.text = plumasTotales.ToString();
-        }
+    public void ActualizarPlumasWhite(int plumasTotales){
+        puntosWhiteDuck.text = plumasTotales.ToString();
+    }
+
+    public void ActualizarPlumasBlack(int plumasTotales){
+        puntosBlackDuck.text = plumasTotales.ToString();
     }
 
     public void DesactivarVidas(int indice){

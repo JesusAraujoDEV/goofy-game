@@ -33,12 +33,12 @@ public class PlumasManager : MonoBehaviour
         if (tag == "WhiteDuck")
         {
             plumasTotalesWhiteDuck += plumasASumar;
-            hud.ActualizarPlumas(plumasTotalesWhiteDuck);
+            hud.ActualizarPlumasWhite(plumasTotalesWhiteDuck);
         }
         else if (tag == "BlackDuck")
         {
             plumasTotalesBlackDuck += plumasASumar;
-            hud.ActualizarPlumas(plumasTotalesBlackDuck);
+            hud.ActualizarPlumasBlack(plumasTotalesBlackDuck);
         }
         tagPlayer = tag;
         Debug.Log(plumasTotalesWhiteDuck);
