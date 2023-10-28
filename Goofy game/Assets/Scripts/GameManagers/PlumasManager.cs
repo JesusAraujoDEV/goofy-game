@@ -2,66 +2,52 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlumasManager : MonoBehaviour
-{
-    public GameObject[] players;
-    public float gameTime = 60f; // Duración del juego en segundos
-    private bool gameIsRunning = false;
+{   
+    public static PlumasManager Instance { get; private set; }
 
-    private void Start()
-    {
-        // Inicia el juego cuando se inicia la escena
-        StartGame();
-    }
+    public int PlumasTotalesWhiteDuck { get { return plumasTotalesWhiteDuck; } }
+    private int plumasTotalesWhiteDuck;
 
-    private void Update()
+    public int PlumasTotalesBlackDuck { get { return plumasTotalesBlackDuck; } }
+    private int plumasTotalesBlackDuck;
+    public string TagPlayer { get { return tagPlayer;} }
+    private string tagPlayer;
+    private int vidas = 3;
+    public HUD hud;
+
+    private void Awake()
     {
-        if (gameIsRunning)
+        if (Instance == null)
         {
-            gameTime -= Time.deltaTime;
-            if (gameTime <= 0)
-            {
-                EndGame();
-            }
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
-    public void StartGame()
+    public void SumarPlumas(int plumasASumar, string tag)
     {
-        gameTime = 60f;
-        gameIsRunning = true;
-        // Aquí puedes reiniciar los jugadores y las plumas
-    }
-
-    public void EndGame()
-    {
-        gameIsRunning = false;
-        // Aquí puedes determinar quién recolectó la mayor cantidad de plumas y declararlo como ganador
-        GameObject winner = DetermineWinner();
-
-        // Reiniciar la escena después de un breve retraso
-        Invoke(nameof(RestartGame), 3f);
-    }
-
-    private GameObject DetermineWinner()
-    {
-        GameObject winningPlayer = null;
-        int maxFeathers = 0;
-
-        foreach (GameObject player in players)
+        if (tag == "WhiteDuck")
         {
-            int feathersCollected = 0;
-            if (feathersCollected > maxFeathers)
-            {
-                maxFeathers = feathersCollected;
-                winningPlayer = player;
-            }
+            plumasTotalesWhiteDuck += plumasASumar;
+            hud.ActualizarPlumas(plumasTotalesWhiteDuck);
         }
-
-        return winningPlayer;
+        else if (tag == "BlackDuck")
+        {
+            plumasTotalesBlackDuck += plumasASumar;
+            hud.ActualizarPlumas(plumasTotalesBlackDuck);
+        }
+        tagPlayer = tag;
+        Debug.Log(plumasTotalesWhiteDuck);
+        Debug.Log(plumasTotalesBlackDuck);
     }
 
-    private void RestartGame()
+    public void PerderVidas()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        vidas--;
+        hud.DesactivarVidas(vidas);
     }
 }
