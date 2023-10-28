@@ -5,11 +5,27 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class SelectionMenu : MonoBehaviour
 {
+    //Al presionar skin
+    [SerializeField] private GameObject SaveButton;
+
+    public void Skin()
+    {
+        SaveButton.SetActive(true);
+    }
+    //Regresar a main menu
+    public void Comeback()
+    {
+        SaveButton.SetActive(false);
+    }
+
+
     // Variables
     private int index;
-    //Referencia de la imagen
-    [SerializeField] private Image imagePlayer;
-    
+    private int index1;
+    //Referencia de la imagen 1 y 2
+    [SerializeField] private Image imagePlayer1;
+    [SerializeField] private Image imagePlayer2;
+
     private ChooseCharacter chooseCharacter;
     private void Start()
     {
@@ -20,18 +36,25 @@ public class SelectionMenu : MonoBehaviour
         {
             index = 0;
         }
+
+        if (index1 > chooseCharacter.characters.Count -1)
+        {
+            index1 = 0;
+        }
         ChangeScreen();
     }
     private void ChangeScreen()
     {
         PlayerPrefs.SetInt("PlayerIndex", index);
-        imagePlayer.sprite = chooseCharacter.characters[index].imagePlayer;
-        
+        PlayerPrefs.SetInt("PlayerIndex1", index1);
+
+        imagePlayer1.sprite = chooseCharacter.characters[index].imagePlayer1;
+        imagePlayer2.sprite = chooseCharacter.characters[index1].imagePlayer2;
     }
-    //cambio de personaje, buton derecho
+    //PLAYER 1
     public void NextCharacter()
     {
-        //si esta en el ultimo lo devuelve al primero
+        //Boton derecha
         if (index == chooseCharacter.characters.Count - 1)
         {
             index = 0;
@@ -43,9 +66,10 @@ public class SelectionMenu : MonoBehaviour
         ChangeScreen();
     }
 
-    //Cambio de personaje, boton izquierdo
+    
     public void FormerCharacter()
     {
+        //Boton izquierda
         if (index==0)
         {
             index = chooseCharacter.characters.Count - 1;
@@ -56,6 +80,37 @@ public class SelectionMenu : MonoBehaviour
         }
         ChangeScreen();
     }
+
+    //PLAYER 2
+    public void NextCharacter1()
+    {
+        //Boton derecha
+        if (index1 == chooseCharacter.characters.Count - 1)
+        {
+            index1 = 0;
+        }
+        else
+        {
+            index1 += 1;
+        }
+        ChangeScreen();
+    }
+
+    
+    public void FormerCharacter1()
+    {
+        //Boton izquierda
+        if (index1 == 0)
+        {
+            index1 = chooseCharacter.characters.Count - 1;
+        }
+        else
+        {
+            index1 -= 1;
+        }
+        ChangeScreen();
+    }
+    //despues de terminar seleccion redirige al main menu
     public void StarGame()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
