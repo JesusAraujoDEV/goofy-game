@@ -15,6 +15,11 @@ public class Mainmenu : MonoBehaviour
     {
         SceneManager.LoadScene("skin");
     }
+    //Boton que devuelve al menu de inicio
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
     //Boton de Play a modo en sinlge player 
     public void SinglePlayer()
     {
