@@ -7,6 +7,7 @@ public class Destructible : MonoBehaviour
     [Range(0f, 1f)]
     public float itemSpawnChance = 0.2f;
     public GameObject[] spawnableItems;
+    public PlumaControl pluma;
 
     private void Start()
     {
@@ -19,6 +20,9 @@ public class Destructible : MonoBehaviour
         {
             int randomIndex = Random.Range(0, spawnableItems.Length);
             Instantiate(spawnableItems[randomIndex], transform.position, Quaternion.identity);
+        }
+        else{
+            Instantiate(pluma, transform.position, Quaternion.identity);
         }
     }
 
