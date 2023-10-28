@@ -110,10 +110,5 @@ public class SelectionMenu : MonoBehaviour
         }
         ChangeScreen();
     }
-    //despues de terminar seleccion redirige al main menu
-    public void StarGame()
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
     
 }
