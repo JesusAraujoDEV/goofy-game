@@ -1,6 +1,8 @@
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour
@@ -14,6 +16,7 @@ public class MovementController : MonoBehaviour
     public int lives = 1;
     private float invulnerabilityDuration = 5f;
     private bool isInvulnerable = false;
+    public MenuPausa menuPausa;
 
     [Header("Input")]
     public KeyCode inputUp = KeyCode.W;
@@ -120,6 +123,11 @@ public class MovementController : MonoBehaviour
     private void OnDeathSequenceEnded()
     {
         gameObject.SetActive(false);
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        if(sceneName == "Granja" || sceneName =="Nieve" || sceneName == "Playa"){
+            menuPausa.Derrota();
+        }
         FindObjectOfType<GameManager>().CheckWinState();
     }
 
