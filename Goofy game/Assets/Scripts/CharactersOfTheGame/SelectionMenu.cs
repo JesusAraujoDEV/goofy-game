@@ -31,7 +31,7 @@ public class SelectionMenu : MonoBehaviour
     {
         chooseCharacter = ChooseCharacter.Instance;
         index = PlayerPrefs.GetInt("PlayerIndex");
-
+        index1 = PlayerPrefs.GetInt("PlayerIndex1");
         if (index > chooseCharacter.characters.Count -1)
         {
             index = 0;
