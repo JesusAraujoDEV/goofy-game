@@ -89,7 +89,8 @@ public class MovementController : MonoBehaviour
             isInvulnerable = true;
             invulnerabilityDuration = 5f;
             lives--;
-            PlumasManager.Instance.PerderVidas();
+
+            PlumasManager.Instance.PerderVidas(this.gameObject.tag);
         }
     }
 

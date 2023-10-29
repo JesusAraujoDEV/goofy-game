@@ -10,6 +10,7 @@ public class HUD : MonoBehaviour
     public TextMeshProUGUI puntosBlackDuck;
     private string tagDuck;
     public GameObject[] vidas;
+    public GameObject[] vidasBlackDuck;
     // Update is called once per frame
 
     public void ActualizarPlumasWhite(int plumasTotales){
@@ -23,8 +24,13 @@ public class HUD : MonoBehaviour
     public void DesactivarVidas(int indice){
         vidas[indice].SetActive(false);
     }
+    public void DesactivarVidasBlack(int indice){
+        vidasBlackDuck[indice].SetActive(false);
+    }
+
 
     public void ActivarVidas(int indice){
         vidas[indice].SetActive(true);
     }
+
 }

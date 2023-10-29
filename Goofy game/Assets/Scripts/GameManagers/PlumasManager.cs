@@ -12,7 +12,8 @@ public class PlumasManager : MonoBehaviour
     private int plumasTotalesBlackDuck;
     public string TagPlayer { get { return tagPlayer;} }
     private string tagPlayer;
-    private int vidas = 3;
+    private int vidasWhite = 3;
+    private int vidasBlack = 3;
     public HUD hud;
 
     private void Awake()
@@ -45,9 +46,15 @@ public class PlumasManager : MonoBehaviour
         Debug.Log(plumasTotalesBlackDuck);
     }
 
-    public void PerderVidas()
+    public void PerderVidas(string tag)
     {
-        vidas--;
-        hud.DesactivarVidas(vidas);
+        if (tag == "WhiteDuck"){
+            vidasWhite--;
+            hud.DesactivarVidas(vidasWhite);
+        }
+        else if(tag == "BlackDuck"){
+            vidasBlack--;
+            hud.DesactivarVidasBlack(vidasBlack);
+        }
     }
 }

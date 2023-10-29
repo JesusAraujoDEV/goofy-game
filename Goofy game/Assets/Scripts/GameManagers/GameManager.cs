@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
+    public MenuPausa menuPausa;
 
     public void CheckWinState()
     {
@@ -17,7 +18,8 @@ public class GameManager : MonoBehaviour
         }
 
         if (aliveCount <= 1) {
-            Invoke(nameof(NewRound), 3f);
+            menuPausa.StatusWinner();
+            //Invoke(nameof(NewRound), 3f);
         }
     }
 
