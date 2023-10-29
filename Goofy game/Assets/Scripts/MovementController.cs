@@ -1,9 +1,14 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour
 {
     private new Rigidbody2D rigidbody;
+    public bool sePuedeMover = true;
+    [SerializeField] private Vector2 velocidadDeRebote;
+    [SerializeField] private float tiempoPerdidaControl;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
     public int lives = 1;
@@ -66,8 +71,9 @@ public class MovementController : MonoBehaviour
     {
         Vector2 position = rigidbody.position;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
-
-        rigidbody.MovePosition(position + translation);
+        if (sePuedeMover){
+            rigidbody.MovePosition(position + translation);
+        }
     }
 
     private void SetDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRenderer)
@@ -89,6 +95,9 @@ public class MovementController : MonoBehaviour
             isInvulnerable = true;
             invulnerabilityDuration = 5f;
             lives--;
+            StartCoroutine(PerderControl());
+            Rebote(this.transform.position);
+
 
             PlumasManager.Instance.PerderVidas(this.gameObject.tag);
         }
@@ -114,4 +123,13 @@ public class MovementController : MonoBehaviour
         FindObjectOfType<GameManager>().CheckWinState();
     }
 
+    public void Rebote(Vector2 puntoGolpe){
+        rigidbody.velocity = new Vector2(-velocidadDeRebote.x * puntoGolpe.x, velocidadDeRebote.y);
+    }
+
+    private IEnumerator PerderControl(){
+        sePuedeMover = false;
+        yield return new WaitForSeconds(tiempoPerdidaControl);
+        sePuedeMover = true;
+    }
 }
