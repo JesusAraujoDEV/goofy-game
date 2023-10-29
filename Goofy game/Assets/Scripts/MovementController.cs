@@ -7,7 +7,6 @@ public class MovementController : MonoBehaviour
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
     public int lives = 1;
-    public int plumasCollected = 0;
     private float invulnerabilityDuration = 5f;
     private bool isInvulnerable = false;
 
