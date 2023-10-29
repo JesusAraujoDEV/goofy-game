@@ -11,6 +11,7 @@ public class HUD : MonoBehaviour
     private string tagDuck;
     public GameObject[] vidas;
     public GameObject[] vidasBlackDuck;
+    public GameObject[] BabiesDuck;
     // Update is called once per frame
 
     public void ActualizarPlumasWhite(int plumasTotales){
@@ -33,4 +34,22 @@ public class HUD : MonoBehaviour
         vidas[indice].SetActive(true);
     }
 
+    public void DesactivarBabies(int indice, string tag){
+        if (tag == "WhiteDuck"){
+            BabiesDuck[indice].SetActive(false);
+            //Volver a instanciar el objeto en su posición inicial
+        }
+        else if(tag == "BlackDuck"){
+            BabiesDuck[indice].SetActive(false);
+            //Volver a instanciar el objeto en su posición inicial
+        }
+    }
+    public void ActivarBabies(int indice, string tag){
+        if (tag == "WhiteDuck"){
+            BabiesDuck[indice].SetActive(false);
+        }
+        else if(tag == "BlackDuck"){
+            BabiesDuck[indice].SetActive(false);
+        }
+    }
 }

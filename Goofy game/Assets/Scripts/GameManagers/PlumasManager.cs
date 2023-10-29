@@ -57,4 +57,13 @@ public class PlumasManager : MonoBehaviour
             hud.DesactivarVidasBlack(vidasBlack);
         }
     }
+    public void ObtenerBaby(string tag){
+        Debug.Log(tag);
+        if (tag == "WhiteDuck"){
+            hud.ActivarBabies(1,"WhiteDuck");
+        }
+        else if(tag == "BlackDuck"){
+            hud.ActivarBabies(0,"BlackDuck");
+        }
+    }
 }
