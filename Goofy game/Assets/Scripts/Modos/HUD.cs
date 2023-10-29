@@ -46,10 +46,10 @@ public class HUD : MonoBehaviour
     }
     public void ActivarBabies(int indice, string tag){
         if (tag == "WhiteDuck"){
-            BabiesDuck[indice].SetActive(false);
+            BabiesDuck[indice].SetActive(true);
         }
         else if(tag == "BlackDuck"){
-            BabiesDuck[indice].SetActive(false);
+            BabiesDuck[indice].SetActive(true);
         }
     }
 }
