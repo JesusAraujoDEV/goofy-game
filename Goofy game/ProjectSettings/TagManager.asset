@@ -8,6 +8,7 @@ TagManager:
   - BlackDuck
   - BabyBlackDuck
   - BabyWhiteDuck
+  - Victory
   layers:
   - Default
   - TransparentFX
