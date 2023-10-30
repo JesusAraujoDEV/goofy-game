@@ -31,7 +31,7 @@ public class HUD : MonoBehaviour
 
 
     public void ActivarVidas(int indice){
-        vidas[indxice].SetActive(true);
+        vidas[indice].SetActive(true);
     }
 
     public void DesactivarBabies(int indice, string tag){
