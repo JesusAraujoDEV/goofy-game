@@ -18,9 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Singleplayer/Nieve.unity
     guid: f45a4fd3f26bb504bb6581be36fe3eb0
   - enabled: 1
+    path: Assets/Scenes/Singleplayer/Playa.unity
+    guid: 028fe49d1f242a64481afc1729eae66a
+  - enabled: 1
     path: Assets/Scenes/Versus/Plumas.unity
     guid: 6a0aa23d897322441b5a245fdf36611f
   - enabled: 1
     path: Assets/Scenes/Versus/Versus.unity
     guid: 241b97fd8c1b0bb43bd38da3ab4aa515
+  - enabled: 1
+    path: Assets/Scenes/Versus/BabyDucks.unity
+    guid: 12ad06d453ce2e842a1ab02531e85d6c
   m_configObjects: {}
