@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bcc5415fc8e3ec479096161f25cb989, type: 3}
   m_Name: Duck 2
   m_EditorClassIdentifier: 
-  playableCharacter: {fileID: 5879614341149993150, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
+  playableCharacter: {fileID: 5879614341149993150, guid: f1daa37abd0a71b40846d4fa13b20a9d, type: 3}
   imagePlayer1: {fileID: 2071838909, guid: db727421f3ea21e4d84062f96ae26393, type: 3}
   imagePlayer2: {fileID: 2071838909, guid: db727421f3ea21e4d84062f96ae26393, type: 3}

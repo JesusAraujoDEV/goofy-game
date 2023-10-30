@@ -110,5 +110,10 @@ public class SelectionMenu : MonoBehaviour
         }
         ChangeScreen();
     }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+    }
     
 }
