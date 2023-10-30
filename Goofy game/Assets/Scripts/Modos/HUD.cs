@@ -23,7 +23,13 @@ public class HUD : MonoBehaviour
     }
 
     public void DesactivarVidas(int indice){
-        vidas[indice].SetActive(false);
+        try{
+           vidas[indice].SetActive(false); 
+        }
+        catch(System.IndexOutOfRangeException){
+            plumasManager.ReiniciarVidas();
+            vidas[3].SetActive(false);
+        }   
     }
     public void DesactivarVidasBlack(int indice){
         vidasBlackDuck[indice].SetActive(false);

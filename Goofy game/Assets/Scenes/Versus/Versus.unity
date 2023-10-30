@@ -464,7 +464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1169247071
 Transform:
   m_ObjectHideFlags: 0
@@ -2019,6 +2019,8 @@ MonoBehaviour:
   pauseWinner: {fileID: 7025576932428370552}
   quitMenu: {fileID: 0}
   panelMenu: {fileID: 0}
+  panelDerrota: {fileID: 0}
+  panelVictoria: {fileID: 0}
   plumasManager: {fileID: 0}
 --- !u!4 &1175163502
 Transform:

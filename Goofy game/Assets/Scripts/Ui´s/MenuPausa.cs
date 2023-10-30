@@ -13,8 +13,11 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private GameObject panelMenu;
     [SerializeField] private GameObject panelDerrota;
     [SerializeField] private GameObject panelVictoria;
+    public GameObject[] Winner;
+    public GameObject[] Looser;
     public PlumasManager plumasManager;
-
+    public string mayorName;
+    public string menorName;
     private bool isPaused = false;
 
     private void Update()
@@ -36,17 +39,18 @@ public class MenuPausa : MonoBehaviour
             int cantidadPlumasWhite = plumasManager.PlumasTotalesWhiteDuck;
             int cantidadPlumasBlack = plumasManager.PlumasTotalesBlackDuck;
             if(cantidadPlumasBlack == 5 || cantidadPlumasWhite == 5){
-                int mayor = plumasManager.PlumasTotalesWhiteDuck;
-                int menor = plumasManager.PlumasTotalesBlackDuck;
-                if (mayor < menor){
-                    mayor = plumasManager.PlumasTotalesBlackDuck;
-                    menor = plumasManager.PlumasTotalesWhiteDuck;
+                if (plumasManager.PlumasTotalesWhiteDuck < plumasManager.PlumasTotalesBlackDuck){
+                    mayorName = "BlackDuck";
+                    menorName = "WhiteDuck";
                 }
-            StatusWinner();    
+                else{
+                    mayorName = "WhiteDuck";
+                    menorName = "BlackDuck";
+                }
+                StatusWinnerPlumas(mayorName, menorName);    
             }
         
         }
-    
     }
 
     //Detener tiempo del juego
@@ -102,6 +106,18 @@ public class MenuPausa : MonoBehaviour
         Application.Quit();
     }
 
+    public void StatusWinnerPlumas(string mayor, string menor){
+        Time.timeScale = 0f;
+        pauseWinner.SetActive(true);
+        if (mayor == "WhiteDuck"){
+            Winner[0].SetActive(true);
+            Looser[1].SetActive(true);
+        }
+        else if (mayor == "BlackDuck"){
+            Winner[1].SetActive(true);
+            Looser[0].SetActive(true);
+        }
+    }
     public void StatusWinner(){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);

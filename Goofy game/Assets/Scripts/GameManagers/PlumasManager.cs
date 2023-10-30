@@ -27,7 +27,15 @@ public class PlumasManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        vidasWhite = 3;
+        vidasBlack = 3;
     }
+    public void ReiniciarVidas()
+    {
+        vidasWhite = 2;
+        vidasBlack = 2;
+    }
+
 
     public void SumarPlumas(int plumasASumar, string tag)
     {
@@ -47,7 +55,7 @@ public class PlumasManager : MonoBehaviour
     }
 
     public void PerderVidas(string tag)
-    {
+    {   
         if (tag == "WhiteDuck"){
             vidasWhite--;
             hud.DesactivarVidas(vidasWhite);
@@ -57,6 +65,7 @@ public class PlumasManager : MonoBehaviour
             hud.DesactivarVidasBlack(vidasBlack);
         }
     }
+
     public void ObtenerBaby(string tag){
         Debug.Log(tag);
         if (tag == "WhiteDuck"){
