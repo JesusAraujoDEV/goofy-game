@@ -127,10 +127,10 @@ public class MenuPausa : MonoBehaviour
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
         if (ganador == "WhiteDuck"){
-            Winner[0].SetActive(true);
+            Winner[1].SetActive(true);
         }
         else if (ganador == "BlackDuck"){
-            Winner[1].SetActive(true);
+            Winner[0].SetActive(true);
         }
     }
 

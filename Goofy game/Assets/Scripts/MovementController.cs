@@ -129,7 +129,7 @@ public class MovementController : MonoBehaviour
             menuPausa.Derrota();
         }
         else{
-            menuPausa.StatusWinner();
+            menuPausa.StatusWinnerVidas(this.gameObject.tag);
         }
     }
 
