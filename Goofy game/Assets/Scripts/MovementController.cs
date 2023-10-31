@@ -83,6 +83,8 @@ public class MovementController : MonoBehaviour
     {
         direction = newDirection;
 
+        FindObjectOfType<AudioManager>().PlaySound("caminata");
+
         spriteRendererUp.enabled = spriteRenderer == spriteRendererUp;
         spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
         spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
