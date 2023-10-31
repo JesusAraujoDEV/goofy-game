@@ -14204,9 +14204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1844f51505a0d49985046102aa73c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players: []
   hud: {fileID: 903035981}
-  menuPausa: {fileID: 0}
 --- !u!4 &2039945590
 Transform:
   m_ObjectHideFlags: 0
@@ -14240,38 +14238,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1267999618539835991, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 58
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267999618539835991, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -15.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317625819635615053, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317625819635615053, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 17.6075
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317625819635615053, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 261.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317625819635615053, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 188.02
-      objectReference: {fileID: 0}
     - target: {fileID: 3270382862131403912, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3975168529561208050, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -121231976, guid: 95957bce5f87ee94da55c4b11499fe77, type: 3}
     - target: {fileID: 4282698232475300743, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: plumasManager
       value: 
@@ -14304,26 +14274,6 @@ PrefabInstance:
       propertyPath: plumasManager
       value: 
       objectReference: {fileID: 2039945589}
-    - target: {fileID: 4797792955761429520, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5000007
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797792955761429520, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797792955761429520, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 17.6075
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797792955761429520, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -358
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797792955761429520, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 189.51
-      objectReference: {fileID: 0}
     - target: {fileID: 5014576994790005991, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -14335,14 +14285,6 @@ PrefabInstance:
     - target: {fileID: 5747932673621352290, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -52.6641
-      objectReference: {fileID: 0}
-    - target: {fileID: 5883105120093431366, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 79.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5883105120093431366, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -15.003
       objectReference: {fileID: 0}
     - target: {fileID: 6475481306554646742, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_Pivot.x
@@ -14428,10 +14370,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7539315573407874585, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -121231976, guid: 95957bce5f87ee94da55c4b11499fe77, type: 3}
     - target: {fileID: 7589030499964341481, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_Name
       value: Canva
