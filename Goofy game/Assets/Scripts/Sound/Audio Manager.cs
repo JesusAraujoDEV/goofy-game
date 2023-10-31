@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.loop = s.loop;
         }
+
+        PlaySound("Main Theme");
         
     }
    //metodo de sonido
