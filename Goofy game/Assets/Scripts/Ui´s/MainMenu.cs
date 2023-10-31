@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Mainmenu : MonoBehaviour
 {
     
-    public void Play()
+    public void PlayGame()
     //Boton que pasa de menu a play
     {
         SceneManager.LoadScene("play_mode");
