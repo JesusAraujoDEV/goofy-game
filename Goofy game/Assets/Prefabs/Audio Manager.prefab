@@ -85,7 +85,7 @@ MonoBehaviour:
     volume: 0.3
     loop: 0
     source: {fileID: 0}
-  - name: camina
+  - name: caminata 1
     clip: {fileID: 8300000, guid: dceedf13834a96844ae61c3170fc23c0, type: 3}
     volume: 0.3
     loop: 0
