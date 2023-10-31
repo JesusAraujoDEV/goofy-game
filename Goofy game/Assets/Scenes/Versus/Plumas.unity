@@ -12987,6 +12987,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 27762180114026067, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 316854244836268974, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 72.3
@@ -13000,8 +13004,16 @@ PrefabInstance:
       value: Reiniciar
       objectReference: {fileID: 0}
     - target: {fileID: 965841366431431603, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 268.2251
+      objectReference: {fileID: 0}
+    - target: {fileID: 965841366431431603, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -140
+      value: -42.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 965841366431431603, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.2
       objectReference: {fileID: 0}
     - target: {fileID: 1020044963933983458, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: plumasManager
@@ -13143,6 +13155,22 @@ PrefabInstance:
       propertyPath: m_Text
       value: Reiniciar
       objectReference: {fileID: 0}
+    - target: {fileID: 4331342035074670478, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 66.9478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331342035074670478, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150.1647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331342035074670478, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00045967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331342035074670478, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00000047684
+      objectReference: {fileID: 0}
     - target: {fileID: 4528701211974101812, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 235.1
@@ -13153,11 +13181,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_text
-      value: Felicidades!!
+      value: "\xA1 Felicidades!\nEl ganador es.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_fontSize
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_margin.z
-      value: -126.92364
+      value: -4.633406
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5466000530214265656, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: plumasManager
@@ -13175,6 +13215,34 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6685776437008137153, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 46.2608
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66.4813
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172128433069794232, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 7372954497289364094, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_text
       value: El ganador es...
@@ -13183,13 +13251,36 @@ PrefabInstance:
       propertyPath: m_margin.x
       value: -18.169876
       objectReference: {fileID: 0}
+    - target: {fileID: 8448761976016525827, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 65.943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448761976016525827, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 147.911
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448761976016525827, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.50288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448761976016525827, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.1268
+      objectReference: {fileID: 0}
     - target: {fileID: 8992413873013563001, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Text
       value: Salir
       objectReference: {fileID: 0}
+    - target: {fileID: 9031934625665790096, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4484908657667545779, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+    - {fileID: 257252603390684017, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+    - {fileID: 6685776437008137153, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+    - {fileID: 518351156467607329, guid: 76faf74d00570b7449e79f7299086786, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76faf74d00570b7449e79f7299086786, type: 3}
