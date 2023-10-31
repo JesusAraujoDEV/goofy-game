@@ -55,7 +55,7 @@ MonoBehaviour:
     volume: 0.2
     loop: 1
     source: {fileID: 0}
-  - name: Game Over
+  - name: Pato herido
     clip: {fileID: 8300000, guid: ca3dee3f9df12b0478ef85d8f511002d, type: 3}
     volume: 1
     loop: 0
@@ -70,8 +70,18 @@ MonoBehaviour:
     volume: 0.3
     loop: 0
     source: {fileID: 0}
-  - name: Bomba suave
+  - name: Bomba
     clip: {fileID: 8300000, guid: 38d57bc487ae1ec45b70cfe575ed33f8, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Poniendo huevo
+    clip: {fileID: 8300000, guid: d135acc270a1ec1478bd5d5c3d6c6cfe, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Game over
+    clip: {fileID: 8300000, guid: d135acc270a1ec1478bd5d5c3d6c6cfe, type: 3}
     volume: 0.3
     loop: 0
     source: {fileID: 0}
