@@ -620,7 +620,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5055831590398257052, guid: 47d49841e662bd346804faf7d291e1b3, type: 3}
       propertyPath: m_Name
-      value: sinPixel (1)
+      value: Extremo
       objectReference: {fileID: 0}
     - target: {fileID: 5847235927160215441, guid: 47d49841e662bd346804faf7d291e1b3, type: 3}
       propertyPath: m_LocalPosition.x
