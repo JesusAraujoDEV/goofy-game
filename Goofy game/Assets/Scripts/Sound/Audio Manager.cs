@@ -23,6 +23,7 @@ public class AudioManager : MonoBehaviour
     foreach(Sound s in sounds)
         {
             if (s.name == name)
+
                 s. source.Play();
             
         }

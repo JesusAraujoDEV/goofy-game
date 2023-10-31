@@ -3301,7 +3301,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478ef887b6ea31a49b041355265d6c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Button
+    clip: {fileID: 8300000, guid: 6bc4bccc717f42841b5a8d7a8a41f04f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
