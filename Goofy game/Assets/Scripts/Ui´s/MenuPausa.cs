@@ -88,7 +88,7 @@ public class MenuPausa : MonoBehaviour
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
 
-        FindObjectOfType<AudioManager>().PlaySound("victoria");
+        FindObjectOfType<AudioManager>().PlaySound("Winner");
         
         if (mayor == "WhiteDuck"){
             Winner[0].SetActive(true);

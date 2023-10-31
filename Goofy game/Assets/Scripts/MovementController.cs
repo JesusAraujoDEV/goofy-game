@@ -95,6 +95,8 @@ public class MovementController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable) {
+            FindObjectOfType<AudioManager>().PlaySound("Pato herido");
+            
             string scene = SceneManager.GetActiveScene().name;
             if(scene == "Plumas"){
                 PlumasManager.Instance.SumarPlumas(-2, this.gameObject.tag);
@@ -149,7 +151,7 @@ public class MovementController : MonoBehaviour
         else{
             menuPausa.StatusWinnerVidas(this.gameObject.tag);
         }
-        FindObjectOfType<AudioManager>().PlaySound("Game Over");
+        FindObjectOfType<AudioManager>().PlaySound("Game over");
     }
 
 }

@@ -12853,6 +12853,7 @@ MonoBehaviour:
   plumaPrefab: {fileID: 1296662306}
   cantidadPlumas: 8
   spawnArea: {x: 10, y: 5}
+  spawnInterval: 18
 --- !u!4 &1809519690
 Transform:
   m_ObjectHideFlags: 0
