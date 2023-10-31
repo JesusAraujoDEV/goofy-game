@@ -128,7 +128,6 @@ public class MovementController : MonoBehaviour
         if(sceneName == "Granja" || sceneName =="Nieve" || sceneName == "Playa"){
             menuPausa.Derrota();
         }
-        FindObjectOfType<GameManager>().CheckWinState();
     }
 
     public void Rebote(Vector2 puntoGolpe){

@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlumasManager : MonoBehaviour
 {   
+    public GameObject[] players;
     public static PlumasManager Instance { get; private set; }
 
     public int PlumasTotalesWhiteDuck { get { return plumasTotalesWhiteDuck; } }
@@ -15,20 +16,49 @@ public class PlumasManager : MonoBehaviour
     private int vidasWhite = 3;
     private int vidasBlack = 3;
     public HUD hud;
+    public MenuPausa menuPausa;
 
     private void Awake()
     {
-        if (Instance == null)
-        {
+        Time.timeScale = 1f;
+        if(Instance == null){
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
+        else{
+            Debug.Log("Hay otro GameManager!!");
         }
-        vidasWhite = 3;
-        vidasBlack = 3;
+        string scene = SceneManager.GetActiveScene().name;
+        int aliveCount = 0;
+        if (scene == "Granja" || scene == "Nieve" || scene == "Playa"){
+            aliveCount = 0;
+
+            foreach (GameObject player in players)
+            {
+                if (player.activeSelf) {
+                    aliveCount++;
+                }
+            }
+
+            if (aliveCount <= 0) {
+                menuPausa.StatusWinner();
+                //Invoke(nameof(NewRound), 3f);
+            }
+        }
+        else{
+            aliveCount = 0;
+
+            foreach (GameObject player in players)
+            {
+                if (player.activeSelf) {
+                    aliveCount++;
+                }
+            }
+
+            if (aliveCount <= 1) {
+                menuPausa.StatusWinner();
+                //Invoke(nameof(NewRound), 3f);
+            }
+        }
     }
     public void ReiniciarVidas()
     {

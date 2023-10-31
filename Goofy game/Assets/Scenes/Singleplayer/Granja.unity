@@ -12253,53 +12253,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1462003892473777902, guid: ed03957058908484b9e6f20c9436f7aa, type: 3}
   m_PrefabInstance: {fileID: 142616100}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &209817201
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 209817202}
-  - component: {fileID: 209817203}
-  m_Layer: 0
-  m_Name: Game Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &209817202
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209817201}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &209817203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209817201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be6202b4bd6cdfe4aacbc20d3babb30d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  players:
-  - {fileID: 933875586}
-  menuPausa: {fileID: 0}
 --- !u!1 &268917134
 GameObject:
   m_ObjectHideFlags: 0
@@ -12329,7 +12282,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1844f51505a0d49985046102aa73c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players:
+  - {fileID: 933875586}
   hud: {fileID: 2373499663097925806}
+  menuPausa: {fileID: 2355931548763313350}
 --- !u!4 &268917136
 Transform:
   m_ObjectHideFlags: 0
@@ -13109,6 +13065,11 @@ Transform:
   - {fileID: 2054411496}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &735318294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7796694159901783105, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+  m_PrefabInstance: {fileID: 578429695621775021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &777611138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24847,11 +24808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993120, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.42
+      value: 78.2
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993120, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.48
+      value: -65.6
       objectReference: {fileID: 0}
     - target: {fileID: 5879614341149993120, guid: 6bdbecbdf34cd67488978d9895d00820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -85795,6 +85756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canva Single
       objectReference: {fileID: 0}
+    - target: {fileID: 1504647924626400187, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1923099982659674721, guid: 9267d940db5953c4c90430817651cb82, type: 3}
       propertyPath: m_SizeDelta.x
       value: 225.93
@@ -85889,6 +85854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StateLose
       objectReference: {fileID: 0}
+    - target: {fileID: 7607028075890751985, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+      propertyPath: panelVictoria
+      value: 
+      objectReference: {fileID: 735318294}
     - target: {fileID: 7607028075890751985, guid: 9267d940db5953c4c90430817651cb82, type: 3}
       propertyPath: plumasManager
       value: 
@@ -85989,7 +85958,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7698817539913713831, guid: 9267d940db5953c4c90430817651cb82, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1588253515507979175, guid: 9267d940db5953c4c90430817651cb82, type: 3}
     - {fileID: 2353370840968225745, guid: 9267d940db5953c4c90430817651cb82, type: 3}
@@ -86289,7 +86259,6 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 209817202}
   - {fileID: 519420032}
   - {fileID: 1210743932}
   - {fileID: 1359170171}
