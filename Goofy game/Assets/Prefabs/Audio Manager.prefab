@@ -51,7 +51,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Main Theme
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: feadb7a4e035f5e4e881015a55688e2f, type: 3}
     volume: 0.2
     loop: 1
     source: {fileID: 0}
@@ -75,8 +75,8 @@ MonoBehaviour:
     volume: 0.3
     loop: 0
     source: {fileID: 0}
-  - name: Bomba masiva
-    clip: {fileID: 8300000, guid: 04206a8e61913c847b1bd9ec21761e27, type: 3}
+  - name: Poniendo huevo
+    clip: {fileID: 8300000, guid: d135acc270a1ec1478bd5d5c3d6c6cfe, type: 3}
     volume: 0.3
     loop: 0
     source: {fileID: 0}
