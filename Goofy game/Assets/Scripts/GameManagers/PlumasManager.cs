@@ -89,6 +89,7 @@ public class PlumasManager : MonoBehaviour
         if (tag == "WhiteDuck"){
             vidasWhite--;
             hud.DesactivarVidas(vidasWhite);
+            
         }
         else if(tag == "BlackDuck"){
             vidasBlack--;

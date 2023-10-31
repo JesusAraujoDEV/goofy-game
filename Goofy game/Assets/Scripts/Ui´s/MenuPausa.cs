@@ -56,10 +56,15 @@ public class MenuPausa : MonoBehaviour
     //Detener tiempo del juego
     public void Pause()
     {
-        Time.timeScale = 0f;
-        isPaused = true;
-        pauseButton.SetActive(false);
-        pauseMenu.SetActive(true);
+        try{
+          Time.timeScale = 0f;
+            isPaused = true;
+            pauseButton.SetActive(false);
+            pauseMenu.SetActive(true);  
+        }
+        finally{
+
+        }
     }
 
     //Reanudar jugada
@@ -118,11 +123,21 @@ public class MenuPausa : MonoBehaviour
             Looser[0].SetActive(true);
         }
     }
+    public void StatusWinnerVidas(string ganador){
+        Time.timeScale = 0f;
+        pauseWinner.SetActive(true);
+        if (ganador == "WhiteDuck"){
+            Winner[0].SetActive(true);
+        }
+        else if (ganador == "BlackDuck"){
+            Winner[1].SetActive(true);
+        }
+    }
+
     public void StatusWinner(){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
     }
-
     public void Victoria(){
         Time.timeScale = 0f;
         panelVictoria.SetActive(true);
