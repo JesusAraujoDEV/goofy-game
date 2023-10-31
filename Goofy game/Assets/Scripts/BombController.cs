@@ -52,6 +52,8 @@ public class BombController : MonoBehaviour
         explosion.SetActiveRenderer(explosion.start);
         explosion.DestroyAfter(explosionDuration);
 
+        FindObjectOfType<AudioManager>().PlaySound("Bomba suave");
+
         Explode(position, Vector2.up, explosionRadius);
         Explode(position, Vector2.down, explosionRadius);
         Explode(position, Vector2.left, explosionRadius);

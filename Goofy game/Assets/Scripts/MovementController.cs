@@ -117,8 +117,6 @@ public class MovementController : MonoBehaviour
                 isInvulnerable = true;
                 invulnerabilityDuration = 5f;
                 lives--;
-                StartCoroutine(PerderControl());
-                Rebote(this.transform.position);
 
                 PlumasManager.Instance.PerderVidas(this.gameObject.tag);
 
@@ -151,15 +149,7 @@ public class MovementController : MonoBehaviour
         else{
             menuPausa.StatusWinnerVidas(this.gameObject.tag);
         }
+        FindObjectOfType<AudioManager>().PlaySound("Game Over");
     }
 
-    public void Rebote(Vector2 puntoGolpe){
-        rigidbody.velocity = new Vector2(-velocidadDeRebote.x * puntoGolpe.x, velocidadDeRebote.y);
-    }
-
-    private IEnumerator PerderControl(){
-        sePuedeMover = false;
-        yield return new WaitForSeconds(tiempoPerdidaControl);
-        sePuedeMover = true;
-    }
 }

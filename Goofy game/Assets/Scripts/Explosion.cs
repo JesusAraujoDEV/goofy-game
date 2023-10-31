@@ -11,6 +11,7 @@ public class Explosion : MonoBehaviour
         start.enabled = renderer == start;
         middle.enabled = renderer == middle;
         end.enabled = renderer == end;
+
     }
 
     public void SetDirection(Vector2 direction)
