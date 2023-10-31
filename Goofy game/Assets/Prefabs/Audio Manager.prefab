@@ -90,3 +90,8 @@ MonoBehaviour:
     volume: 0.3
     loop: 0
     source: {fileID: 0}
+  - name: Winner
+    clip: {fileID: 8300000, guid: 3d01a8d5e7dda24408e8a89a25d0f0f9, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
