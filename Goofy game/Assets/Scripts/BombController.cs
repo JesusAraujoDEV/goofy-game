@@ -30,6 +30,7 @@ public class BombController : MonoBehaviour
     {
         if (bombsRemaining > 0 && Input.GetKeyDown(inputKey)) {
             StartCoroutine(PlaceBomb());
+            FindObjectOfType<AudioManager>().PlaySound("Poniendo huevo");
         }
     }
 
@@ -51,6 +52,8 @@ public class BombController : MonoBehaviour
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(explosion.start);
         explosion.DestroyAfter(explosionDuration);
+
+        FindObjectOfType<AudioManager>().PlaySound("Bomba suave");
 
         Explode(position, Vector2.up, explosionRadius);
         Explode(position, Vector2.down, explosionRadius);

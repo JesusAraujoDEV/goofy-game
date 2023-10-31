@@ -35,6 +35,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (other.CompareTag("WhiteDuck") || other.CompareTag("BlackDuck") || other.CompareTag("Player")) {
             OnItemPickup(other.gameObject);
+            FindObjectOfType<AudioManager>().PlaySound("tomar un poder");
         }
     }
 
