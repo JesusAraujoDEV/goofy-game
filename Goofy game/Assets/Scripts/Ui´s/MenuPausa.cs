@@ -47,7 +47,7 @@ public class MenuPausa : MonoBehaviour
                     mayorName = "WhiteDuck";
                     menorName = "BlackDuck";
                 }
-                StatusWinnerPlumas(mayorName, menorName);    
+                StatusWinnerPlumas(mayorName);    
             }
         }
     }
@@ -97,7 +97,7 @@ public class MenuPausa : MonoBehaviour
         panelMenu.SetActive(true);
     }
 
-    public void StatusWinnerPlumas(string mayor, string menor){
+    public void StatusWinnerPlumas(string mayor){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
         if (mayor == "WhiteDuck"){
@@ -119,6 +119,7 @@ public class MenuPausa : MonoBehaviour
             Winner[0].SetActive(true);
         }
     }
+    
 
     public void StatusWinner(){
         Time.timeScale = 0f;

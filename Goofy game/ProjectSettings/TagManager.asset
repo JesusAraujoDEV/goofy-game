@@ -9,6 +9,8 @@ TagManager:
   - BabyBlackDuck
   - BabyWhiteDuck
   - Victory
+  - RutaWhite
+  - RutaBlack
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - Enemy
   - Pluma
   - BabyDuck
-  - 
+  - Limite
   - 
   - 
   - 

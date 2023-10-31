@@ -17,6 +17,10 @@ public class PlumasManager : MonoBehaviour
     private int vidasBlack = 3;
     public HUD hud;
     public MenuPausa menuPausa;
+    public bool loTieneWhite;    
+    public bool loTieneBlack;
+    public GameObject babyWhite;
+    public GameObject babyBlack;
 
     private void Awake()
     {
@@ -101,9 +105,28 @@ public class PlumasManager : MonoBehaviour
         Debug.Log(tag);
         if (tag == "WhiteDuck"){
             hud.ActivarBabies(1,"WhiteDuck");
+            loTieneWhite = true; 
         }
         else if(tag == "BlackDuck"){
             hud.ActivarBabies(0,"BlackDuck");
+            loTieneBlack = true;
         }
+    }
+    public void DesobtenerBaby(string tag){
+        Debug.Log(tag);
+        if (tag == "WhiteDuck"){
+            hud.DesactivarBabies(1,"WhiteDuck");
+            loTieneWhite = false; 
+        }
+        else if(tag == "BlackDuck"){
+            hud.DesactivarBabies(0,"BlackDuck");
+            loTieneBlack = false;
+        }
+    }
+    public void SuperActivacionWhite(){
+        babyWhite.SetActive(true);
+    }
+    public void SuperActivacionBlack(){
+        babyBlack.SetActive(true);
     }
 }

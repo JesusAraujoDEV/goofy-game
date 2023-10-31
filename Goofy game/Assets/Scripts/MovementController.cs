@@ -101,6 +101,18 @@ public class MovementController : MonoBehaviour
                 isInvulnerable = true;
                 invulnerabilityDuration = 5f;
             }
+            else if(scene =="BabyDucks"){
+                PlumasManager.Instance.DesobtenerBaby(this.gameObject.tag);
+                isInvulnerable = true;
+                invulnerabilityDuration = 5f;
+
+                if(this.gameObject.tag == "WhiteDuck"){
+                    PlumasManager.Instance.SuperActivacionWhite();
+                }
+                else if(this.gameObject.tag == "BlackDuck"){
+                    PlumasManager.Instance.SuperActivacionBlack();
+                }
+            }
             else{
                 isInvulnerable = true;
                 invulnerabilityDuration = 5f;

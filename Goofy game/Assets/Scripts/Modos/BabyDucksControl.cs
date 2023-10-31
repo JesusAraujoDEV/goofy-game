@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BabyDucksControl : MonoBehaviour
 {
+    public PlumasManager plumasManager;
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.tag == "WhiteDuck" && this.gameObject.tag == "BabyWhiteDuck"){
             PlumasManager.Instance.ObtenerBaby(collision.gameObject.tag);
@@ -14,4 +15,4 @@ public class BabyDucksControl : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
-}
+}   
