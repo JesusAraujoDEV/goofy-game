@@ -8,9 +8,9 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject pauseWinner;
-    [SerializeField] private GameObject quitMenu;
     
-    [SerializeField] private GameObject panelMenu;
+    
+    
     [SerializeField] private GameObject panelDerrota;
     [SerializeField] private GameObject panelVictoria;
     public GameObject[] Winner;
@@ -82,20 +82,7 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    //abrir panel de quit
-
-    public void Quit()
-    {
-        quitMenu.SetActive(true);
-        panelMenu.SetActive(false);
-    }
-
-    //volver a menu de pausa
-    public void ReturnMenuPause()
-    {
-        quitMenu.SetActive(false);
-        panelMenu.SetActive(true);
-    }
+    //Determina quien gana
 
     public void StatusWinnerPlumas(string mayor){
         Time.timeScale = 0f;
