@@ -281,78 +281,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207376760}
   m_CullTransparentMesh: 1
---- !u!1 &358680229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 358680230}
-  - component: {fileID: 358680231}
-  - component: {fileID: 358680232}
-  - component: {fileID: 358680233}
-  m_Layer: 0
-  m_Name: Button control
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &358680230
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358680229}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1140.4651, y: 339.6998, z: -13.873303}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &358680231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358680229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b089ae6fbd7a6a4fa84103e2035609f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &358680232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358680229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219a14e0a0a7792499a530d0432f8136, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SinglePlayerButton: {fileID: 848421001}
-  MultiPlayerButton: {fileID: 782571331}
---- !u!114 &358680233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358680229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a71def820fc612a41bce52a1f4fc5c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &518828029
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +589,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680232}
+      - m_Target: {fileID: 2103524187}
         m_TargetAssemblyTypeName: PlayMode, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -793,7 +721,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680232}
+      - m_Target: {fileID: 2103524187}
         m_TargetAssemblyTypeName: PlayMode, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -926,8 +854,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: IceLand
         m_Mode: 1
         m_Arguments:
@@ -976,55 +904,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678739067}
   m_CullTransparentMesh: 1
---- !u!1 &764608381
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 764608383}
-  - component: {fileID: 764608382}
-  m_Layer: 0
-  m_Name: ChooseCharacter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &764608382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764608381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42c74a18ea8159446bac767345db9e4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characters:
-  - {fileID: 11400000, guid: e73b2567b833c2347bfb0c4376ac62ae, type: 2}
-  - {fileID: 11400000, guid: 1ec05374283766548aea7e1dee58e434, type: 2}
-  - {fileID: 11400000, guid: 9a42b773e3503bc498af645b7e978b4a, type: 2}
-  - {fileID: 11400000, guid: edc37d6981207994ba13244ba9099f54, type: 2}
---- !u!4 &764608383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764608381}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 829.22284, y: 454.04718, z: -13.923544}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &777546897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,8 +1508,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: Plumas
         m_Mode: 1
         m_Arguments:
@@ -1762,8 +1641,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: Versus
         m_Mode: 1
         m_Arguments:
@@ -1895,7 +1774,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680232}
+      - m_Target: {fileID: 2103524187}
         m_TargetAssemblyTypeName: PlayMode, Assembly-CSharp
         m_MethodName: MultiPlayer
         m_Mode: 1
@@ -1905,6 +1784,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2103524189}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1367995452
@@ -2027,7 +1918,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680231}
+      - m_Target: {fileID: 2103524188}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: ReturnMenu
         m_Mode: 1
@@ -2160,7 +2051,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680232}
+      - m_Target: {fileID: 2103524187}
         m_TargetAssemblyTypeName: PlayMode, Assembly-CSharp
         m_MethodName: SinglePlayer
         m_Mode: 1
@@ -2172,16 +2063,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 358680229}
-        m_TargetAssemblyTypeName: PlayMode, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2103524189}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1519864202
@@ -2384,8 +2275,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: BabyDucks
         m_Mode: 1
         m_Arguments:
@@ -2609,25 +2500,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: Farm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 358680229}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2754,8 +2633,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358680233}
-        m_TargetAssemblyTypeName: enlace, Assembly-CSharp
+      - m_Target: {fileID: 2103524188}
+        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
         m_MethodName: Beach
         m_Mode: 1
         m_Arguments:
@@ -3287,6 +3166,9 @@ GameObject:
   - component: {fileID: 2103524185}
   - component: {fileID: 2103524184}
   - component: {fileID: 2103524183}
+  - component: {fileID: 2103524188}
+  - component: {fileID: 2103524187}
+  - component: {fileID: 2103524189}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3381,6 +3263,45 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2103524187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103524182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219a14e0a0a7792499a530d0432f8136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SinglePlayerButton: {fileID: 848421001}
+  MultiPlayerButton: {fileID: 782571331}
+--- !u!114 &2103524188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103524182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b089ae6fbd7a6a4fa84103e2035609f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2103524189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103524182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478ef887b6ea31a49b041355265d6c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3389,5 +3310,3 @@ SceneRoots:
   - {fileID: 1000208925}
   - {fileID: 2103524186}
   - {fileID: 596346040}
-  - {fileID: 358680230}
-  - {fileID: 764608383}

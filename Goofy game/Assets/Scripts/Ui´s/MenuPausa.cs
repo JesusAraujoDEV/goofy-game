@@ -83,7 +83,7 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    //cerrar juego 
+    //abrir panel de quit
 
     public void Quit()
     {
@@ -96,19 +96,6 @@ public class MenuPausa : MonoBehaviour
     {
         quitMenu.SetActive(false);
         panelMenu.SetActive(true);
-    }
-    public void QuitPlay()
-    {
-        //salir de la partida
-            SceneManager.LoadScene("menu");
-    
-    }
-
-    public void QuitGame()
-    {
-        //salir del juego
-        Debug.Log("Closing game");
-        Application.Quit();
     }
 
     public void StatusWinnerPlumas(string mayor, string menor){

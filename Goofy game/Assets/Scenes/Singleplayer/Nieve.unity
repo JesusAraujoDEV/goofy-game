@@ -1225,7 +1225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1844f51505a0d49985046102aa73c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: []
   hud: {fileID: 2373499663097925806}
+  menuPausa: {fileID: 0}
 --- !u!4 &268917136
 Transform:
   m_ObjectHideFlags: 0
@@ -95867,6 +95869,18 @@ PrefabInstance:
     - target: {fileID: 8077242445359180560, guid: 9267d940db5953c4c90430817651cb82, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521297289053941391, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5907164
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521297289053941391, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -372
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521297289053941391, guid: 9267d940db5953c4c90430817651cb82, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 197.2314
       objectReference: {fileID: 0}
     - target: {fileID: 8948166921015752857, guid: 9267d940db5953c4c90430817651cb82, type: 3}
       propertyPath: m_Pivot.x

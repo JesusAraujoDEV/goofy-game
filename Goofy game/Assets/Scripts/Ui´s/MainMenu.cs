@@ -1,13 +1,25 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class enlace : MonoBehaviour
+public class Mainmenu : MonoBehaviour
 {
     
-    //Botones en single Player mode
+    public void Play()
+    //Boton que pasa de menu a play
+    {
+        SceneManager.LoadScene("play_mode");
+    }
+    
+    //Boton que devuelve al menu de inicio
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
 
+
+     //Botones en single Player mode
    public void Farm()
     {
         SceneManager.LoadScene("Granja");
@@ -20,6 +32,7 @@ public class enlace : MonoBehaviour
     {
         SceneManager.LoadScene("Nieve");
     }
+
 
     //Botones de multi player mode
     public void Versus()
@@ -35,5 +48,11 @@ public class enlace : MonoBehaviour
     {
         SceneManager.LoadScene("BabyDucks");
     }
-
+    public void Quit()
+    //Boton para salir del juego
+    {
+        Debug.Log("Closing game");
+        Application.Quit();
+    }    
+    
 }
