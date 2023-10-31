@@ -98,6 +98,8 @@ public class MovementController : MonoBehaviour
             string scene = SceneManager.GetActiveScene().name;
             if(scene == "Plumas"){
                 PlumasManager.Instance.SumarPlumas(-2, this.gameObject.tag);
+                isInvulnerable = true;
+                invulnerabilityDuration = 5f;
             }
             else{
                 isInvulnerable = true;
@@ -107,7 +109,7 @@ public class MovementController : MonoBehaviour
                 Rebote(this.transform.position);
 
                 PlumasManager.Instance.PerderVidas(this.gameObject.tag);
-                
+
             }
         }
     }

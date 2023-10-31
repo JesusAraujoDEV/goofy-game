@@ -49,7 +49,6 @@ public class MenuPausa : MonoBehaviour
                 }
                 StatusWinnerPlumas(mayorName, menorName);    
             }
-        
         }
     }
 
