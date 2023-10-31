@@ -11,6 +11,7 @@ TagManager:
   - Victory
   - RutaWhite
   - RutaBlack
+  - Silla
   layers:
   - Default
   - TransparentFX

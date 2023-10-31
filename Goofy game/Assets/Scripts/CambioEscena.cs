@@ -43,5 +43,8 @@ public class Cambiodeescena : MonoBehaviour
 
             // Luego puedes mostrar un mensaje, cambiar la escena, o realizar cualquier otra acción que desees.
         }
+        else if(collision.CompareTag("WhiteDuck") && this.gameObject.tag == "Silla"){
+            pausaMenu.Victoria();
+        }
     }
 }
