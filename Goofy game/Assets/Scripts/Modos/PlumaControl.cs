@@ -11,6 +11,9 @@ public class PlumaControl : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("WhiteDuck") || collision.CompareTag("BlackDuck")){
             plumasManager.SumarPlumas(valor, collision.gameObject.tag);
+
+            FindObjectOfType<AudioManager>().PlaySound("Tomar una pluma");
+
             Destroy(this.gameObject);
         }
     }
