@@ -52,7 +52,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Main Theme
     clip: {fileID: 8300000, guid: feadb7a4e035f5e4e881015a55688e2f, type: 3}
-    volume: 0.2
+    volume: 0.11
     loop: 1
     source: {fileID: 0}
   - name: Pato herido
