@@ -903,6 +903,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3349036364702100532, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4936529615457960817, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -983,6 +987,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5387188863173109933, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 85.6928
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387188863173109933, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 62.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387188863173109933, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -31.2801
+      objectReference: {fileID: 0}
     - target: {fileID: 6060798111487966085, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1010,6 +1026,34 @@ PrefabInstance:
     - target: {fileID: 6856695683439081328, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.55245334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 51.062
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80.918
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 62.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181161975928244572, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467613142402134228, guid: fb4c6f36c372d1f49bb44b8839886d19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -3768,6 +3812,10 @@ PrefabInstance:
       propertyPath: vidasBlackDuck.Array.data[2]
       value: 
       objectReference: {fileID: 307400305}
+    - target: {fileID: 5686678274819517090, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 6007547018386803367, guid: 48cc412ba36f5a541b953cb884cdcd57, type: 3}
       propertyPath: m_IsActive
       value: 0
