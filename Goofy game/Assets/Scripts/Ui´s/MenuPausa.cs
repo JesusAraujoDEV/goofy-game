@@ -92,11 +92,9 @@ public class MenuPausa : MonoBehaviour
         
         if (mayor == "WhiteDuck"){
             Winner[0].SetActive(true);
-            Looser[1].SetActive(true);
         }
         else if (mayor == "BlackDuck"){
             Winner[1].SetActive(true);
-            Looser[0].SetActive(true);
         }
     }
     public void StatusWinnerVidas(string ganador){
