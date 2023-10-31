@@ -9,10 +9,14 @@ public class BabyDucksControl : MonoBehaviour
         if(collision.gameObject.tag == "WhiteDuck" && this.gameObject.tag == "BabyWhiteDuck"){
             PlumasManager.Instance.ObtenerBaby(collision.gameObject.tag);
             this.gameObject.SetActive(false);
+
+            FindObjectOfType<AudioManager>().PlaySound("Tomar una pluma");
         }
         else if(collision.gameObject.tag == "BlackDuck" && this.gameObject.tag == "BabyBlackDuck"){
             PlumasManager.Instance.ObtenerBaby(collision.gameObject.tag);
             this.gameObject.SetActive(false);
+
+            FindObjectOfType<AudioManager>().PlaySound("Tomar una pluma");
         }
     }
 }   

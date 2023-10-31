@@ -102,6 +102,8 @@ public class MenuPausa : MonoBehaviour
     public void StatusWinnerVidas(string ganador){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
+
+        FindObjectOfType<AudioManager>().PlaySound("Winner");
         if (ganador == "WhiteDuck"){
             Winner[1].SetActive(true);
         }
@@ -114,13 +116,19 @@ public class MenuPausa : MonoBehaviour
     public void StatusWinner(){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
+
+        FindObjectOfType<AudioManager>().PlaySound("Winner");
     }
     public void Victoria(){
         Time.timeScale = 0f;
         panelVictoria.SetActive(true);
+
+        FindObjectOfType<AudioManager>().PlaySound("Winner");
     }
     public void Derrota(){
         Time.timeScale = 0f;
         panelDerrota.SetActive(true);
+
+        FindObjectOfType<AudioManager>().PlaySound("Game Over");
     }
 }
