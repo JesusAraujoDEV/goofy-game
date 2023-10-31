@@ -12843,8 +12843,6 @@ MonoBehaviour:
   pauseButton: {fileID: 754897027}
   pauseMenu: {fileID: 1205812815}
   pauseWinner: {fileID: 160034933}
-  quitMenu: {fileID: 0}
-  panelMenu: {fileID: 0}
   panelDerrota: {fileID: 0}
   panelVictoria: {fileID: 0}
   Winner: []
@@ -12989,6 +12987,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 316854244836268974, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 72.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 316854244836268974, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15
+      objectReference: {fileID: 0}
     - target: {fileID: 514087818722507815, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Text
       value: Reiniciar
@@ -13012,6 +13018,18 @@ PrefabInstance:
     - target: {fileID: 1020044963933983458, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: vidas.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183166294716331190, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 54.200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183166294716331190, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.599976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620619347464434440, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
       objectReference: {fileID: 0}
     - target: {fileID: 1801314110642024750, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Pivot.x
@@ -13097,6 +13115,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2787724717545416474, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -121231976, guid: 95957bce5f87ee94da55c4b11499fe77, type: 3}
+    - target: {fileID: 3003773379318071307, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.49999967
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003773379318071307, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.49999925
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003773379318071307, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -346.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003773379318071307, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 193.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3159337903180706281, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Text
       value: Renaudar
@@ -13104,6 +13142,14 @@ PrefabInstance:
     - target: {fileID: 4050490435711874409, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Text
       value: Reiniciar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528701211974101812, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 235.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528701211974101812, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 196
       objectReference: {fileID: 0}
     - target: {fileID: 4573993057192393292, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_text
@@ -13117,6 +13163,10 @@ PrefabInstance:
       propertyPath: plumasManager
       value: 
       objectReference: {fileID: 2039945589}
+    - target: {fileID: 6078789296498913884, guid: 76faf74d00570b7449e79f7299086786, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -121231976, guid: 95957bce5f87ee94da55c4b11499fe77, type: 3}
     - target: {fileID: 6119794134266649835, guid: 76faf74d00570b7449e79f7299086786, type: 3}
       propertyPath: m_Name
       value: Canva
