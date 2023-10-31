@@ -87,6 +87,9 @@ public class MenuPausa : MonoBehaviour
     public void StatusWinnerPlumas(string mayor){
         Time.timeScale = 0f;
         pauseWinner.SetActive(true);
+
+        FindObjectOfType<AudioManager>().PlaySound("Winner");
+        
         if (mayor == "WhiteDuck"){
             Winner[0].SetActive(true);
             Looser[1].SetActive(true);
