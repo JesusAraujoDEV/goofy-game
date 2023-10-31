@@ -17722,6 +17722,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -15.651
       objectReference: {fileID: 0}
+    - target: {fileID: 3657154591910549040, guid: b36a0656209435a42a8ea5841c18081e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 3886860295702644147, guid: b36a0656209435a42a8ea5841c18081e, type: 3}
       propertyPath: m_IsActive
       value: 0
