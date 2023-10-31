@@ -374,6 +374,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d49841e662bd346804faf7d291e1b3, type: 3}
+--- !u!1 &510788949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 430251104878938027, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+  m_PrefabInstance: {fileID: 8349016198884243659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,7 +690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1169247071
 Transform:
   m_ObjectHideFlags: 0
@@ -2235,8 +2240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0e6ae59da22a24f993c599b44c1e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseButton: {fileID: 0}
-  pauseMenu: {fileID: 0}
+  pauseButton: {fileID: 510788949}
+  pauseMenu: {fileID: 1925313094}
   pauseWinner: {fileID: 7025576932428370552}
   quitMenu: {fileID: 0}
   panelMenu: {fileID: 0}
@@ -6548,6 +6553,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1925313094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5202213771724858284, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+  m_PrefabInstance: {fileID: 8349016198884243659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4528142134929747209 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2373499662188020933, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
@@ -6741,8 +6751,16 @@ PrefabInstance:
       value: 155
       objectReference: {fileID: 0}
     - target: {fileID: 3243020262223583433, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+      propertyPath: m_Name
+      value: BlackHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243020262223583433, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832953453560374059, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+      propertyPath: m_Name
+      value: WhiteHead
       objectReference: {fileID: 0}
     - target: {fileID: 3832953453560374059, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       propertyPath: m_IsActive
@@ -6926,7 +6944,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 370545274827145535, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1071276329330597492, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+    - {fileID: 11889936453692053, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6976263005000643065, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       insertIndex: -1
