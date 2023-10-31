@@ -60,8 +60,23 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
-  - name: Pick Fleather
-    clip: {fileID: 0}
-    volume: 0
+  - name: Tomar una pluma
+    clip: {fileID: 8300000, guid: a349d4f086e0da44e9dc15adaec01bfd, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: tomar un poder
+    clip: {fileID: 8300000, guid: c9bc3c6c458b12e4094667e7cc3d32ae, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Bomba suave
+    clip: {fileID: 8300000, guid: 38d57bc487ae1ec45b70cfe575ed33f8, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Bomba masiva
+    clip: {fileID: 8300000, guid: 04206a8e61913c847b1bd9ec21761e27, type: 3}
+    volume: 0.3
     loop: 0
     source: {fileID: 0}
