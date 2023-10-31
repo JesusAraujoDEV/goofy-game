@@ -6890,6 +6890,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Reiniciar
       objectReference: {fileID: 0}
+    - target: {fileID: 3966489363251161379, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 4279271651668194554, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       propertyPath: m_Text
       value: Salir
@@ -6928,7 +6932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5202213771724858284, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5921845400417482693, guid: bcfab821bff38114c9c7e243e50b7c90, type: 3}
       propertyPath: m_LocalScale.x
