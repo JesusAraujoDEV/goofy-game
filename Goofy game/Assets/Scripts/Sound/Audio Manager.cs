@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
+
 {
     // conexion con scrip sound
     public Sound[] sounds;
