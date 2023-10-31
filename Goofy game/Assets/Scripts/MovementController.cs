@@ -95,14 +95,20 @@ public class MovementController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && !isInvulnerable) {
-            isInvulnerable = true;
-            invulnerabilityDuration = 5f;
-            lives--;
-            StartCoroutine(PerderControl());
-            Rebote(this.transform.position);
+            string scene = SceneManager.GetActiveScene().name;
+            if(scene == "Plumas"){
+                PlumasManager.Instance.SumarPlumas(-2, this.gameObject.tag);
+            }
+            else{
+                isInvulnerable = true;
+                invulnerabilityDuration = 5f;
+                lives--;
+                StartCoroutine(PerderControl());
+                Rebote(this.transform.position);
 
-
-            PlumasManager.Instance.PerderVidas(this.gameObject.tag);
+                PlumasManager.Instance.PerderVidas(this.gameObject.tag);
+                
+            }
         }
     }
 
