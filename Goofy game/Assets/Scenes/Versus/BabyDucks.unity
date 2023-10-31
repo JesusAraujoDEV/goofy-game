@@ -616,7 +616,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.24313727, g: 0.15294118, b: 0.027450982, a: 1}
+  m_BackGroundColor: {r: 0.17254902, g: 0.11764706, b: 0.039215688, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2603,8 +2603,6 @@ MonoBehaviour:
   pauseButton: {fileID: 1911369766}
   pauseMenu: {fileID: 1649389037}
   pauseWinner: {fileID: 974431867}
-  quitMenu: {fileID: 0}
-  panelMenu: {fileID: 0}
   panelDerrota: {fileID: 0}
   panelVictoria: {fileID: 0}
   Winner:

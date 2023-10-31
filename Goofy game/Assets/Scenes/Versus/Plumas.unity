@@ -1773,7 +1773,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.24313727, g: 0.15294118, b: 0.027450982, a: 1}
+  m_BackGroundColor: {r: 0.17254902, g: 0.11764706, b: 0.039215688, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -12899,6 +12899,10 @@ MonoBehaviour:
   - {fileID: 1517356615}
   hud: {fileID: 4471402925531855445}
   menuPausa: {fileID: 1816991184}
+  loTieneWhite: 0
+  loTieneBlack: 0
+  babyWhite: {fileID: 0}
+  babyBlack: {fileID: 0}
 --- !u!4 &2039945590
 Transform:
   m_ObjectHideFlags: 0

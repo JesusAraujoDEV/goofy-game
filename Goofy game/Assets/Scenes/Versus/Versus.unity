@@ -415,7 +415,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.24313727, g: 0.15294118, b: 0.027450982, a: 1}
+  m_BackGroundColor: {r: 0.16981131, g: 0.113984264, b: 0.036311835, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -505,6 +505,10 @@ MonoBehaviour:
   - {fileID: 1517356615}
   hud: {fileID: 4528142134929747209}
   menuPausa: {fileID: 1175163501}
+  loTieneWhite: 0
+  loTieneBlack: 0
+  babyWhite: {fileID: 0}
+  babyBlack: {fileID: 0}
 --- !u!4 &842999664
 Transform:
   m_ObjectHideFlags: 0
@@ -2243,8 +2247,6 @@ MonoBehaviour:
   pauseButton: {fileID: 510788949}
   pauseMenu: {fileID: 1925313094}
   pauseWinner: {fileID: 7025576932428370552}
-  quitMenu: {fileID: 0}
-  panelMenu: {fileID: 0}
   panelDerrota: {fileID: 0}
   panelVictoria: {fileID: 0}
   Winner:
