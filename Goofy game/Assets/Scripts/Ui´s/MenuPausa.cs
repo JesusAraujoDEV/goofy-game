@@ -31,6 +31,7 @@ public class MenuPausa : MonoBehaviour
             else
             {
                 Pause();
+                FindObjectOfType<AudioManager>().PlaySound("Button");
             }
         }
         string scene = SceneManager.GetActiveScene().name;

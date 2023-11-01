@@ -302,7 +302,7 @@ MonoBehaviour:
           m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1047238296}
+      - m_Target: {fileID: 1010760378}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlaySound
         m_Mode: 5
@@ -626,7 +626,7 @@ MonoBehaviour:
           m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1047238296}
+      - m_Target: {fileID: 1010760378}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlaySound
         m_Mode: 5
@@ -684,6 +684,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2212335663317735055, guid: 4c15d534766b1224ca495f390e5ed056, type: 3}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ab0e0a9fdaa3fa40a1eaf8477f6d59e, type: 3}
+    - target: {fileID: 2212335663317735055, guid: 4c15d534766b1224ca495f390e5ed056, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 7325813883243466614, guid: 4c15d534766b1224ca495f390e5ed056, type: 3}
       propertyPath: m_Name
       value: Audio Manager
@@ -733,6 +741,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c15d534766b1224ca495f390e5ed056, type: 3}
+--- !u!114 &1010760378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2212335663317735055, guid: 4c15d534766b1224ca495f390e5ed056, type: 3}
+  m_PrefabInstance: {fileID: 1010760377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478ef887b6ea31a49b041355265d6c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1026196524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Button
-    clip: {fileID: 8300000, guid: 6bc4bccc717f42841b5a8d7a8a41f04f, type: 3}
+    clip: {fileID: 8300000, guid: 1f0617d70fe7cf643abcad0b0bf30147, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}

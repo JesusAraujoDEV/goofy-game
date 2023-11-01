@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Button
-    clip: {fileID: 8300000, guid: 6bc4bccc717f42841b5a8d7a8a41f04f, type: 3}
+    clip: {fileID: 8300000, guid: 1f0617d70fe7cf643abcad0b0bf30147, type: 3}
     volume: 0.3
     loop: 0
     source: {fileID: 0}
@@ -77,11 +77,11 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Poniendo huevo
     clip: {fileID: 8300000, guid: d135acc270a1ec1478bd5d5c3d6c6cfe, type: 3}
-    volume: 0.3
+    volume: 0.18
     loop: 0
     source: {fileID: 0}
   - name: Game over
-    clip: {fileID: 8300000, guid: d135acc270a1ec1478bd5d5c3d6c6cfe, type: 3}
+    clip: {fileID: 8300000, guid: 041d2ab7e8dfc9546bc3aa93dda27deb, type: 3}
     volume: 0.3
     loop: 0
     source: {fileID: 0}

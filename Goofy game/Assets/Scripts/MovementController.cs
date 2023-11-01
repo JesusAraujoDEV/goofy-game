@@ -42,14 +42,19 @@ public class MovementController : MonoBehaviour
     {
         if (Input.GetKey(inputUp)) {
             SetDirection(Vector2.up, spriteRendererUp);
+            FindObjectOfType<AudioManager>().PlaySound("caminata");
         } else if (Input.GetKey(inputDown)) {
             SetDirection(Vector2.down, spriteRendererDown);
+            FindObjectOfType<AudioManager>().PlaySound("caminata");
         } else if (Input.GetKey(inputLeft)) {
             SetDirection(Vector2.left, spriteRendererLeft);
+            FindObjectOfType<AudioManager>().PlaySound("caminata");
         } else if (Input.GetKey(inputRight)) {
             SetDirection(Vector2.right, spriteRendererRight);
+            FindObjectOfType<AudioManager>().PlaySound("caminata");
         } else {
             SetDirection(Vector2.zero, activeSpriteRenderer);
+            FindObjectOfType<AudioManager>().PlaySound("caminata");
         }
 
         if (lives <= 0)
