@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class EnemyController : MonoBehaviour
 {
-    private new Rigidbody2D rigidbody;
+    private Rigidbody2D Enemyrigidbody;
     private Transform player;
     public float moveSpeed = 5f;
     public int lives = 1;
@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        Enemyrigidbody = GetComponent<Rigidbody2D>();
         player = FindObjectOfType<MovementController>().transform;
     }
 
@@ -47,10 +47,10 @@ public class EnemyController : MonoBehaviour
 
     private void MoveEnemy(Vector2 moveDirection)
     {
-        Vector2 position = rigidbody.position;
+        Vector2 position = Enemyrigidbody.position;
         Vector2 translation = moveDirection * moveSpeed * Time.deltaTime;
 
-        rigidbody.MovePosition(position + translation);
+        Enemyrigidbody.MovePosition(position + translation);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

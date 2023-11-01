@@ -1,13 +1,10 @@
-using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour
 {
-    private new Rigidbody2D rigidbody;
+    private Rigidbody2D Enemyrigidbody;
     public bool sePuedeMover = true;
     [SerializeField] private Vector2 velocidadDeRebote;
     [SerializeField] private float tiempoPerdidaControl;
@@ -34,7 +31,7 @@ public class MovementController : MonoBehaviour
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        Enemyrigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
     }
 
@@ -77,10 +74,10 @@ public class MovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 position = rigidbody.position;
+        Vector2 position = Enemyrigidbody.position;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         if (sePuedeMover){
-            rigidbody.MovePosition(position + translation);
+            Enemyrigidbody.MovePosition(position + translation);
         }
     }
 
