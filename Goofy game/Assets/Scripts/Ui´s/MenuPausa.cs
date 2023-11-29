@@ -13,6 +13,7 @@ public class MenuPausa : MonoBehaviour
     
     [SerializeField] private GameObject panelDerrota;
     [SerializeField] private GameObject panelVictoria;
+    
     public GameObject[] Winner;
     public GameObject[] Looser;
     public PlumasManager plumasManager;
@@ -59,6 +60,7 @@ public class MenuPausa : MonoBehaviour
         try{
           Time.timeScale = 0f;
             isPaused = true;
+            //paneles
             pauseButton.SetActive(false);
             pauseMenu.SetActive(true);  
         }
