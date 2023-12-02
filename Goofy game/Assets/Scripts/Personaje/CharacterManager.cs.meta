@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 582667bf83a5eb84dbb9c795ef3c7c6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterDB: {fileID: 11400000, guid: ac30bc242cea96e47adcd9bf952ab901, type: 2}
+  - artworlSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

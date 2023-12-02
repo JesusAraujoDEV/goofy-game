@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character 
+[CreateAssetMenu]
+public class Character: ScriptableObject
 {
+    public GameObject playableCharacter;
     public Sprite characterSprite;
 }

@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class CharacterDataBase : ScriptableObject
+public class CharacterDataBase : MonoBehaviour
 {
-    public Character[] character;
 
-    public int CharacterCount
+    public static CharacterDataBase Instance;
+    public List<Character> character;
+    private void Awake()
     {
-        get
-        {
-            return character.Length;
+        if (CharacterDataBase.Instance == null){
+            CharacterDataBase.Instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
-    }
-
-    public Character GetCharacter(int index)
-    {
-        return character[index];
+        else{
+            Destroy(gameObject);
+        }
     }
 }
