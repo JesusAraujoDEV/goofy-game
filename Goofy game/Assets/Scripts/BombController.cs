@@ -30,7 +30,7 @@ public class BombController : MonoBehaviour
     {
         if (bombsRemaining > 0 && Input.GetKeyDown(inputKey)) {
             StartCoroutine(PlaceBomb());
-            FindObjectOfType<AudioManager>().PlaySound("Poniendo huevo");
+            //FindObjectOfType<AudioManager>().PlaySound("Poniendo huevo");
         }
     }
 

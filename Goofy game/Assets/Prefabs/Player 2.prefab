@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 5879614341149993121}
   m_Layer: 3
   m_Name: Player 2
-  m_TagString: Player
+  m_TagString: WhiteDuck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

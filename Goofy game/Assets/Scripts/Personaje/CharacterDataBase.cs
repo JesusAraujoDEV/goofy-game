@@ -11,6 +11,7 @@ public class CharacterDataBase : MonoBehaviour
     {
         if (CharacterDataBase.Instance == null){
             CharacterDataBase.Instance = this;
+            gameObject.tag = "WhiteDuck";
             DontDestroyOnLoad(this.gameObject);
         }
         else{
