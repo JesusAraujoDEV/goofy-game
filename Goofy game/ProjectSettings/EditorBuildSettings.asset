@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/playMode.unity
     guid: 106eac54e8a2ae64eba52f199404e8c1
   - enabled: 1
+    path: Assets/Scenes/Singleplayer/Granja1.unity
+    guid: 54f3788dc4321644596e96657a21b268
+  - enabled: 1
     path: Assets/Scenes/Singleplayer/Granja.unity
     guid: 0bb2a4db854831541b983172f1f3b23d
   - enabled: 1

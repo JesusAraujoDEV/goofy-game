@@ -22,7 +22,7 @@ public class Mainmenu : MonoBehaviour
      //Botones en single Player mode
    public void Farm()
     {
-        SceneManager.LoadScene("Granja");
+        SceneManager.LoadScene("Granja1"); //modificaste aqui es sin el 1
     }
     public void Beach()
     {
